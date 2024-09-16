@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "saveyaar-movie-backend"
+version = "0.1.0"
+description = "saveyaar_movie is a feature small feature in saveyaar, this is the backend for it using FAST API."
+authors = ["Ankith Veldandi <143205588+aveldan@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.114.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
