@@ -11,7 +11,7 @@ class Database:
         config = dotenv_values("./.env")
         Database.__client = AsyncIOMotorClient(config["MONGO_URI"])
         Database.__db = Database.__client[config["DB"]]
-        await init_beanie(database=Database.__db, document_models=[
+        await init_beanie(database=Database.db(), document_models=[
             "app.models.people.People",
             "app.models.ott.OTT",
             "app.models.movie.Movie",
