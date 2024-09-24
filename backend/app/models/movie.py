@@ -7,7 +7,7 @@ class certification(BaseModel):
         default=None,
         min_length=2,
         max_length=2,
-        regex="^[A-Z]+$"
+        pattern="^[A-Z]+$"
     )
     certification: str | None = None
     releaseDate: date | None = None
@@ -17,13 +17,13 @@ class ott_history(BaseModel):
     ottID: PydanticObjectId
     ottName: str = Field(
         max_length=15,
-        regex="^[a-zA-Z0-9]+$"
+        pattern="^[a-zA-Z0-9]+$"
     )
     country: str | None = Field( # Add a better validator to check if it is in ISO 3166-1
         default=None,
         min_length=2,
         max_length=2,
-        regex="^[A-Z]+$"
+        pattern="^[A-Z]+$"
     )
     start_date: datetime
     end_date: datetime | None = None
@@ -34,7 +34,7 @@ class language(BaseModel):
         default=None,
         min_length=2,
         max_length=2,
-        regex="^[a-z]+$"
+        pattern="^[a-z]+$"
     )
     localTitle: str | None = None
     isOriginalLang: bool | None = None
@@ -51,7 +51,7 @@ class cast_crew(BaseModel):
     displayName: str | None = Field(
         default=None,
         max_length=10,
-        regex="^[a-zA-Z]+$"
+        pattern="^[a-zA-Z]+$"
     )  
     imageURL: str | None = None # Validate this to only contain urls
     crewRoles: list[str] | str | None = None

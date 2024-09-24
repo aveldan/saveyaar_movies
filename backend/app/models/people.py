@@ -5,22 +5,22 @@ class name(BaseModel):
     firstName: str | None = Field(
         default=None,
         max_length=15,
-        regex="^[a-zA-Z]+$"
+        pattern="^[a-zA-Z]+$"
     )
     lastName: str | None = Field(
         default=None,
         max_length=15,
-        regex="^[a-zA-Z]+$"
+        pattern="^[a-zA-Z]+$"
     )
     otherName: str | None = Field(
         default=None,
         max_length=25,
-        regex="^[a-zA-Z]+$"
+        pattern="^[a-zA-Z]+$"
     )
     displayName: str | None = Field(
         default=None,
         max_length=10,
-        regex="^[a-zA-Z]+$"
+        pattern="^[a-zA-Z]+$"
     )
 
 

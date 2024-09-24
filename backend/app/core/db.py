@@ -1,5 +1,4 @@
 from motor.motor_asyncio import AsyncIOMotorClient, AsyncIOMotorDatabase
-from dotenv import dotenv_values
 from beanie import init_beanie
 
 class Database:
@@ -7,10 +6,9 @@ class Database:
     __db: AsyncIOMotorDatabase | None = None
     
     @staticmethod
-    async def connect() -> None:
-        config = dotenv_values("./.env")
-        Database.__client = AsyncIOMotorClient(config["MONGO_URI"])
-        Database.__db = Database.__client[config["DB"]]
+    async def connect(mongoConnStr: str, mongoDB: str) -> None:
+        Database.__client = AsyncIOMotorClient(mongoConnStr)
+        Database.__db = Database.__client[mongoDB]
         await init_beanie(database=Database.db(), document_models=[
             "app.models.people.People",
             "app.models.ott.OTT",

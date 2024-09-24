@@ -13,7 +13,7 @@ class ppl(BaseModel):
     displayName: str | None = Field(
         default=None,
         max_length=10,
-        regex="^[a-zA-Z]+$"
+        pattern="^[a-zA-Z]+$"
     )
     imageUrl: str | None = None # Validate this to only contain urls
     castRoles: list[cast] | cast | None = None
