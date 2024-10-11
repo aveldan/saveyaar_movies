@@ -27,7 +27,6 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(lifespan=lifespan)
 
-
 @app.get("/{item}")
 async def root(item: tmp):
     if item is tmp.a:

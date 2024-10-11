@@ -8,13 +8,15 @@ class Database:
     @staticmethod
     async def connect(mongoConnStr: str, mongoDB: str) -> None:
         Database.__client = AsyncIOMotorClient(mongoConnStr)
-        Database.__db = Database.__client[mongoDB]
+        Database.__db = Database.client()[mongoDB]
         await init_beanie(database=Database.db(), document_models=[
             "app.models.people.People",
             "app.models.ott.OTT",
             "app.models.movie.Movie",
             "app.models.tv.TV",
-            "app.models.season.Season"
+            "app.models.season.Season",
+            "app.models.tmdb.TMDB_Discover_Movie",
+            "app.models.tmdb.TMDB_Movie"
         ])
 
     @staticmethod
