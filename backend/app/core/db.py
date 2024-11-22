@@ -15,8 +15,10 @@ class Database:
             "app.models.movie.Movie",
             "app.models.tv.TV",
             "app.models.season.Season",
-            "app.models.tmdb.TMDB_Discover_Movie",
-            "app.models.tmdb.TMDB_Movie"
+            "app.models.tmdb.TMDB_Discover",
+            "app.models.tmdb.TMDB_Movie",
+            "app.models.tmdb.TMDB_TV",
+            "app.models.tmdb.TMDB_Season"
         ])
 
     @staticmethod
