@@ -2,6 +2,7 @@ import { Tabs } from 'expo-router';
 import React from 'react';
 import { HomeIcon, SaveIcon, SearchIcon, MySubscriptionsIcon } from '@/assets/svg';
 import { StyleSheet, TouchableOpacity, TouchableOpacityProps } from 'react-native';
+import { BlurView } from 'expo-blur';
 
 export const TAB_SCREENS = [
     {
@@ -58,6 +59,7 @@ export default function TabLayout() {
         headerShown: false,
         tabBarStyle: styles.tabBar,  
         tabBarHideOnKeyboard: true,
+        tabBarBackground: () => <BlurView style={StyleSheet.absoluteFill} tint='dark' intensity={135}/>,
         tabBarButton: (props) => (
           <TouchableOpacity 
             {...props  as TouchableOpacityProps} 
@@ -87,7 +89,7 @@ const styles = StyleSheet.create({
     height: 69,
     paddingTop: 0,
     paddingBottom: 30,
-    backgroundColor: '#00000099',
+    backgroundColor: 'transparent',
   },
   tabBarButton:{
     flex: 1,

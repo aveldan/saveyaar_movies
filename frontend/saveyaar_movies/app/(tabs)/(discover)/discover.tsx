@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { StyleSheet, View } from "react-native";
 import TabScreenWrapper from "../../../components/TabScreenWrapper";
 import { usePathname } from "expo-router";
+import HeaderComponent from "@/components/HeaderComponent";
 
 export default function DiscoverScreen() {
   const pathname = usePathname();
@@ -9,6 +10,7 @@ export default function DiscoverScreen() {
 
 	return (
 		<TabScreenWrapper isActive={isActive} slideDirection='right'>
+      <HeaderComponent title="Discover"/>
 			<View style={styles.container}>
 				<View style={styles.square} />
 			</View>

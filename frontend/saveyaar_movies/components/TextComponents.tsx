@@ -1,17 +1,36 @@
 import React from 'react';
 import {Text, StyleSheet} from 'react-native';
-import { Scale, COLORS } from '../constants/constIndex'
+import { COLORS } from '../constants/constIndex'
+import Scale from '@/constants/Scale';
 
-export default  function TextComponent (props){
-  let _text = props?.text || '';
-  let _style = props?.style || null;
-  let _color = props?.color;
-  let _numberOfLine = props?.numberOfLine || 1;
-  let _fontSize = props?.size || 14;
+interface TextComp{
+  text?: string,
+  style?: any,
+  color?: any,
+  numberOfLine?: number,
+  size?: number,
+  bold?:Boolean,
+  medium?: Boolean,
+  regular?: Boolean
+};
+
+export default  function TextComponent ({text = '', 
+                                        style = null, 
+                                        color = null,
+                                        numberOfLine = 1,
+                                        size = 14,
+                                        bold = false,
+                                        medium = false,
+                                        regular = false} : TextComp){
+  let _text = text || '';
+  let _style = style || null;
+  let _color = color;
+  let _numberOfLine = numberOfLine || 1;
+  let _fontSize = size || 14;
   let _font =
-    (props?.regular && 'regular') ||
-    (props?.medium && 'medium') ||
-    (props?.bold && 'bold') ||
+    (regular && 'regular') ||
+    (medium && 'medium') ||
+    (bold && 'bold') ||
     'regular';
 
   return (
@@ -33,6 +52,6 @@ export default  function TextComponent (props){
 const styles = StyleSheet.create({
   text: {
     fontSize: Scale(20),
-    color: COLORS.black,
+    color: "#fff",
   },
 });

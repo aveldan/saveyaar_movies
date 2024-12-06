@@ -1,6 +1,6 @@
 import * as React from "react"
 import Svg, { G, Path, Defs, ClipPath } from "react-native-svg"
-const HomeIcon = (props) => (
+const HelpIcon = (props) => (
   <Svg
     xmlns="http://www.w3.org/2000/svg"
     width={props?.width || 24}
@@ -9,20 +9,20 @@ const HomeIcon = (props) => (
     {...props}
   >
     <G
-      stroke="#A6A6A6"
+      stroke="#9C7CDE"
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth={1.75}
+      strokeWidth={1.25}
       clipPath="url(#a)"
     >
-      <Path d="M6.333 14H4L14.5 3.5 25 14h-2.333M6.333 14v8.167A2.333 2.333 0 0 0 8.667 24.5h11.666a2.333 2.333 0 0 0 2.334-2.333V14" />
-      <Path d="M12.167 14h4.666v4.667h-4.666V14Z" />
+      <Path d="M2.5 10a7.5 7.5 0 1 0 15 0 7.5 7.5 0 0 0-15 0ZM10 13.334v.008" />
+      <Path d="M10 10.833a1.667 1.667 0 1 0-.314-3.3 1.65 1.65 0 0 0-.936.551" />
     </G>
     <Defs>
       <ClipPath id="a">
-        <Path fill="#fff" d="M.5 0h28v28H.5z" />
+        <Path fill="#fff" d="M0 0h20v20H0z" />
       </ClipPath>
     </Defs>
   </Svg>
 )
-export { HomeIcon }
+export { HelpIcon }

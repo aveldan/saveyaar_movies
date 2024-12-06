@@ -1,7 +1,8 @@
 import { height, width } from "@/constants/Dimensions";
-import { LinearGradient } from "expo-linear-gradient";
 import React from "react";
-import { StyleSheet, View } from "react-native";
+import { ImageBackground, StyleSheet, View } from "react-native";
+import { StatusBar } from "expo-status-bar";
+import { background } from "@/assets/images";
 
 interface Props {
     children: React.ReactNode
@@ -11,13 +12,8 @@ export default function TopRightGradient({children}: Props) {
 
     return (
         <View style={styles.container}>
-            <LinearGradient 
-                colors={["black", "#4361EE3D", "#8C3FFF3D"]}
-                locations={[0, 0.5, 1]}
-                start={{x: 0.5, y: 0.5}}
-                end={{x:1, y: 0}}
-                style={styles.gradient}
-            />
+            <StatusBar style="light" />
+            <ImageBackground source={background} style={styles.conatinerImage}/>
             {children}
         </View>
     )
@@ -27,13 +23,12 @@ export default function TopRightGradient({children}: Props) {
 const styles = StyleSheet.create({
 	container: {
         flex: 1,
-        backgroundColor: '#000',
+        backgroundColor: 'transparent',
     },
-    gradient: {
-		position: 'absolute',
-		top: 0,
-		right: 0,
-		width: width,
-		height: height
-	},
+    conatinerImage: {
+        width: '100%',
+        height: height,
+        position: 'absolute',
+        transform: [{scale: 1.19}],
+    },
 });

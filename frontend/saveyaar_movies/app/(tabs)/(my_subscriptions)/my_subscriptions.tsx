@@ -2,6 +2,7 @@ import React from "react";
 import { StyleSheet, View } from "react-native";
 import TabScreenWrapper from "../../../components/TabScreenWrapper";
 import { usePathname } from "expo-router";
+import HeaderComponent from "@/components/HeaderComponent";
 
 
 export default function MySubscriptionsScreen() {
@@ -11,6 +12,7 @@ export default function MySubscriptionsScreen() {
 	
 	return (
 		<TabScreenWrapper isActive={isActive} slideDirection="left">
+			<HeaderComponent title="Subscriptions"/>
 			<View style={styles.container}>
 				<View style={styles.square} />
 			</View>

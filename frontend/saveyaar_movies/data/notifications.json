@@ -1,0 +1,22 @@
+{
+    "notifications": [
+        {
+            "message": "This is available now",
+            "title": "Oppenheimer",
+            "imageUrl": "https://m.media-amazon.com/images/I/61y3DfBfGdL._AC_UF894,1000_QL80_.jpg",
+            "rating": 8.2
+        },
+        {
+            "message": "New Season for 50M² is available on Netflix",
+            "imageUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/2518eb113535837.602a4c183dd5d.jpg",
+            "title": "50M²",
+            "rating": 5.5
+        },
+        {
+            "imageUrl": "https://resizing.flixster.com/Dz6J1iPXCauKGnfcOIBwTPS_PGo=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p25443430_v_v13_af.jpg",
+            "title": "T.I.M",
+            "rating": 7.2,
+            "message": "Currently available on Hulu!"
+        }
+    ]
+}

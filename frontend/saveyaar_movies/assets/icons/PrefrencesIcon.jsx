@@ -1,6 +1,6 @@
 import * as React from "react"
 import Svg, { Path } from "react-native-svg"
-const SaveIcon = (props) => (
+const PrefrencesIcon = (props) => (
   <Svg
     xmlns="http://www.w3.org/2000/svg"
     width={props?.width || 24}
@@ -9,12 +9,12 @@ const SaveIcon = (props) => (
     {...props}
   >
     <Path
-      stroke="#A6A6A6"
+      stroke="#9C7CDE"
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth={2.333}
-      d="M21.5 8.167V24.5l-7-4.667-7 4.667V8.167A4.667 4.667 0 0 1 12.167 3.5h4.666A4.667 4.667 0 0 1 21.5 8.167Z"
+      strokeWidth={1.667}
+      d="M3.333 15h3.334M10 15h6.667M3.333 10h8.334M15 10h1.667M3.333 5h.834M7.5 5h9.167m-10 11.666v-3.333H10v3.333H6.667Zm5-5V8.333H15v3.333h-3.333Zm-7.5-5V3.333H7.5v3.333H4.167Z"
     />
   </Svg>
 )
-export { SaveIcon }
+export { PrefrencesIcon }
