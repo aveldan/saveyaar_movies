@@ -1,0 +1,27 @@
+{
+    "movies": [
+        {
+            "rowTitle": "Top Picks",
+            "movies": [
+                {
+                    "id": "123",
+                    "imageUrl": "https://image.tmdb.org/t/p/w500/qcw0LshYV3qdfOlo9yP3gKhz4ks.jpg",
+                    "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+                    "title": "Oppenheimer",
+                    "year": "2023",
+                    "duration": "3h 0m",
+                    "rating": "R",
+                    "description": "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb. Based on the Pulitzer Prize-winning book \"American Prometheus\".",
+                    "cast": [
+                        "Cillian Murphy",
+                        "Emily Blunt",
+                        "Matt Damon",
+                        "Robert Downey Jr."
+                    ],
+                    "director": "Christopher Nolan",
+                    "ranking_text": "#1 in Movies Today"
+                }
+            ]
+        }
+    ]
+}

@@ -12,6 +12,11 @@ import { FilePensilIcon } from "./icons/FilePencilIcon";
 import { PurpleNotification } from "./icons/PurpleNotification";
 import { RightArrow } from "./icons/RightArrowIcon";
 import { StarIcon } from "./icons/StarIcon";
+import { BellIcon } from "./icons/BellIcon";
+import { HeartIcon } from "./icons/HeartIcon";
+import { BlueLineSmallIcon } from "./icons/BlueLineSmallIcon";
+import { WhiteLine } from "./icons/WhiteLine";
+import { BlueLineBigIcon } from "./icons/BlueLineBigIcon";
 
 export {
     HomeIcon,
@@ -27,5 +32,10 @@ export {
     FilePensilIcon,
     PurpleNotification,
     RightArrow,
-    StarIcon
+    StarIcon,
+    BellIcon,
+    HeartIcon,
+    BlueLineSmallIcon,
+    WhiteLine,
+    BlueLineBigIcon,
 };

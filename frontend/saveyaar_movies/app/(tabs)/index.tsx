@@ -1,14 +1,14 @@
-import React from "react";
-import { View } from "react-native";
+import React, { useState } from "react";
 import {  useRouter } from "expo-router";
 import { usePathname } from "expo-router";
-import Animated, { interpolate, useAnimatedProps, useAnimatedScrollHandler, useSharedValue, withTiming } from "react-native-reanimated";
+import Animated, {  useAnimatedScrollHandler, useSharedValue, withTiming } from "react-native-reanimated";
 
-import AnimatedHeader from "@/components/AnimatedHeader";
 import TabScreenWrapper from "../../components/TabScreenWrapper";
-import movieData from "@/data/movies.json";
-import MovieList, { MoviesData } from "@/components/MovieList";
+import movieData from "@/data/data.json";
+import { MoviesData } from "@/components/MovieList";
 import { styles } from "@/styles";
+import HomeScreenHeader from "@/components/HomeScreenHeader";
+import HomeView from "@/components/HomeView";
 
 export default function HomeScreen() {
 
@@ -20,17 +20,6 @@ export default function HomeScreen() {
 	const SLIDE_ACTIVATION_POINT = 90;
 	const scrollY = useSharedValue(0);
 	const lastScrollY = useSharedValue(0);
-
-	const headerAnimatedProps = useAnimatedProps(() => {
-		return {
-		  intensity: interpolate(
-			scrollY.value,
-			[0, 90],
-			[0, 85],
-			'clamp'
-		  )
-		};
-	});
 
 	const scrollHandler = useAnimatedScrollHandler({
 		onScroll: (event) => {
@@ -65,30 +54,24 @@ export default function HomeScreen() {
 		router.push("/notifications")
 	};
 	
-	const { movies } = movieData as MoviesData;
+	const { featured, movies } = movieData as MoviesData;
 	
 	return (
 		<TabScreenWrapper isActive={isActive} slideDirection="right">
-			<View style={styles.container}>
-				<AnimatedHeader 
-					headerAnimatedProps={headerAnimatedProps}
+			<Animated.ScrollView 
+				style={styles.scrollView} 
+				onScroll={scrollHandler}
+				scrollEventThrottle={16}
+				showsVerticalScrollIndicator={false}
+				bounces={false}
+			>
+				<HomeScreenHeader 
 					scrollDirection={scrollDirection} 
 					handleProfile={handleProfile}
 					handleNotification={handleNotification}
 				/>
-				<Animated.ScrollView 
-					style={styles.scrollView} 
-					contentContainerStyle={styles.scrollViewContent}
-					onScroll={scrollHandler}
-					scrollEventThrottle={16}
-					showsVerticalScrollIndicator={false}
-          			bounces={false}
-				>
-					{movies.map(row => (
-						<MovieList key={row.rowTitle} {...row} />
-					))}
-				</Animated.ScrollView>
-			</View>
+				<HomeView featured={featured} movies={movies} />
+			</Animated.ScrollView>
 		</TabScreenWrapper>
 	);
 };

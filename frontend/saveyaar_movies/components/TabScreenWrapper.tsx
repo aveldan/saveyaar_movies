@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { View } from "react-native";
 import Animated, { runOnJS, useAnimatedStyle, useSharedValue, withSpring, withTiming } from "react-native-reanimated";
 
 import { width } from "../constants/Dimensions";
 import TopRightGradient from "./TopRightGradient";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 interface Props {
     children: React.ReactNode;
@@ -66,22 +66,25 @@ export default function TabScreenWrapper({children, isActive, slideDirection}: P
         opacity: opacity.value,
     }));
 
+    const insets = useSafeAreaInsets();
+
     return (
-        <View style={{ flex: 1}}>
-            <TopRightGradient>
-                <Animated.View
-                    style={[
-                        {
-                            position: 'absolute',
-                            width: '100%',
-                            height: '100%',
-                        },
-                        isAnimating ? animatedStyle : null
-                    ]}
-                >
-                    {children}
-                </Animated.View>
-            </TopRightGradient>
-        </View>
+        <TopRightGradient>
+            <Animated.View
+                style={[
+                    {
+                        position: 'absolute',
+                        width: '100%',
+                        height: '100%',
+                        paddingTop: insets.top+10,
+                        paddingBottom: 52,
+                        paddingHorizontal: 10,
+                    },
+                    isAnimating ? animatedStyle : null
+                ]}
+            >
+                {children}
+            </Animated.View>
+        </TopRightGradient>
     )
 }
