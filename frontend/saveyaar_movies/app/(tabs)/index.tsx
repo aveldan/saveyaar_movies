@@ -66,7 +66,6 @@ export default function HomeScreen() {
 				bounces={false}
 			>
 				<HomeScreenHeader 
-					scrollDirection={scrollDirection} 
 					handleProfile={handleProfile}
 					handleNotification={handleNotification}
 				/>

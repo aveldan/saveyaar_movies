@@ -16,6 +16,10 @@ export default function Layout() {
         headerShown: false,
         contentStyle: { backgroundColor: 'transparent' },
       }} />
+      <Stack.Screen name="movie/[id]" options={{
+        headerShown: false,
+        contentStyle: { backgroundColor: 'transparent' },
+      }} />
     </Stack>
   );
 }

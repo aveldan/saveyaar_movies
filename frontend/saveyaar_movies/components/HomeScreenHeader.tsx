@@ -6,12 +6,11 @@ import { NotificationIcon } from "@/assets/svg";
 import Scale from "@/constants/Scale";
 
 interface HeaderProps {
-    scrollDirection: Animated.SharedValue<number>;
-    handleProfile: () => void,
-    handleNotification: () => void,
+    handleProfile?: () => void,
+    handleNotification?: () => void,
 }
 
-export default function HomeScreenHeader({scrollDirection, handleProfile, handleNotification}: HeaderProps) {
+export default function HomeScreenHeader({handleProfile, handleNotification}: HeaderProps) {
     
     const userImageSource = "https://s3-alpha-sig.figma.com/img/afb9/3a50/98d2fa0a32dceb793f76f36a8d18243c?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=n9avdl84noC9tNUHjPMqyatvVvO-p5lQ5rhH5Iyk2CXAGZ2HJA723W4k5V7sNTRsixM5tiVcNtI~ZBh6M6VFhIadetul~9ERc8ebBzgXYUDcymiynE4EMD0NVPs3UhJgFt9YXq7bEBMftDglqfE9hqf816BnnFgtjVcKSem-whEsClxU7S3Ud8eA768L0lSQZXziYEXEcGFbWK7okIwFy9MUhuJCxcS7YkTgXyo6izj1aSg-8rnqu~l6Df6Qw7XJfobDQG3Qz~G2oF1i5iiq-J7y1EgSc4XeocFL7mWOEuoZEhszyA~yIKK8xZfRV7e5dAORJ3Zg0oPA2NGWhSW6BQ__";
     

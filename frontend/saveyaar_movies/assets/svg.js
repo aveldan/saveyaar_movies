@@ -17,6 +17,10 @@ import { HeartIcon } from "./icons/HeartIcon";
 import { BlueLineSmallIcon } from "./icons/BlueLineSmallIcon";
 import { WhiteLine } from "./icons/WhiteLine";
 import { BlueLineBigIcon } from "./icons/BlueLineBigIcon";
+import { ShareIconPurple } from "./icons/ShareIconPurple";
+import { HeartIconPurple } from "./icons/HeartIconPurple";
+import { BellIconPurple } from "./icons/BellIconPurple";
+import { DotIconPurple } from "./icons/DotIconPurple";
 
 export {
     HomeIcon,
@@ -38,4 +42,8 @@ export {
     BlueLineSmallIcon,
     WhiteLine,
     BlueLineBigIcon,
+    ShareIconPurple,
+    HeartIconPurple,
+    BellIconPurple,
+    DotIconPurple
 };
