@@ -1,6 +1,6 @@
 import { useLocalSearchParams } from "expo-router";
 import React, { useEffect, useState } from "react";
-import { StyleSheet, View, Image } from "react-native";
+import { StyleSheet, View, Image, Text } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 import { BellIconPurple, DotIconPurple, HeartIconPurple, ShareIconPurple } from "@/assets/svg";
@@ -8,10 +8,15 @@ import TextComponent from "@/components/TextComponents";
 import { IMAGE_URL, MOVIE_URL, TMDB_KEY } from "@env";
 import Scale from "@/constants/Scale";
 import { LinearGradient } from "expo-linear-gradient";
+import GenreComponent from "@/components/GenreComponent";
 
 interface TwoLineText {
     textTop: string,
     textBottom: string
+};
+
+interface Certification {
+    certification: string
 };
 
 const TwoLineText = ({textTop, textBottom}: TwoLineText) => {
@@ -33,6 +38,32 @@ const TwoLineText = ({textTop, textBottom}: TwoLineText) => {
     )
 };
 
+const Certification = ({certification}: Certification) => {
+    const [textWidth, setTextWidth] = useState(0);
+    
+    return (
+        <>
+            <Text
+                style={styles.hiddenText}
+                onLayout={(event) =>
+                    setTextWidth(event.nativeEvent.layout.width)
+                }
+            >
+                {/* This is not visible it just there to calculate textWidth */}
+                {certification}
+            </Text>
+            <View style={[styles.certification, {width: textWidth+10}]}>
+                <TextComponent
+                    text={certification}
+                    size={7.2}
+                    color="#FFFFFF"
+                    numberOfLine={1}
+                />
+            </View>
+        </>
+    )
+};
+
 export default function MovieScreen() {
     const { id } = useLocalSearchParams();
 
@@ -41,6 +72,8 @@ export default function MovieScreen() {
     const [duration, setDuration] = useState<string | null>(null);
     const [languages, setLanguages] = useState<any[] | null>(null);
     const [rating, setRating] = useState<string | null>(null);
+    const [genreList, setGenreList] = useState<string[] | null>(null);
+    const [certifications, setCertifications] = useState<Set<string> | null>(null);
 
     useEffect(()=> {
         const fetchImage = async (backdrop_path: string) => {
@@ -93,17 +126,35 @@ export default function MovieScreen() {
             return filtered_langues;
         };
 
+        const get_genres = (genre_list: any[]) => {
+            const the_list: string[] = [];
+            genre_list.forEach(genre => (
+                the_list.push(genre.name)
+            ));
+
+            return the_list;
+        };
+
+        const get_certifications = (country: string, release_dates: any[]) => {
+            let cert: Set<string> = new Set(); 
+            release_dates.forEach(item => {
+                if(item.iso_3166_1 === country) {
+                    const inner_dates = item.release_dates;
+                    inner_dates.forEach((item1: { certification: string; }) => {
+                        if(item1.certification !== "")
+                            cert.add(item1.certification);
+                    })
+                }
+            });
+
+            return cert;
+        };
+
         const fetchMovie = async () => {
-            const url = new URL(`${MOVIE_URL}${id}`);
-            url.searchParams.append('append_to_response', 'release_dates,translations,watch/providers');
-            
+            const url = new URL(`${MOVIE_URL}/${id}`);
             console.log(url.toString());
 
-            const response = await fetch(url.toString(), {
-                headers: {
-                  Authorization: `Bearer ${TMDB_KEY}`,
-                },
-            });
+            const response = await fetch(url.toString());
 
             if(response.status === 200) {
                 const movieData = await response.json();
@@ -111,6 +162,8 @@ export default function MovieScreen() {
                 setDuration(calc_runtime(movieData.runtime | 0));
                 setLanguages(filter_indian_languages(movieData.translations.translations));
                 // setRating(movieData.rating.toString());
+                setGenreList(get_genres(movieData.genres));
+                setCertifications(get_certifications("IN", movieData.release_dates.results)); // Make the country variable later
                 fetchImage(movieData.backdrop_path);
             } else {
                 console.error(`Error: Received status code ${response.status} when trying to access movie id:${id}`);
@@ -121,7 +174,6 @@ export default function MovieScreen() {
     }, [id]);
 
     const insets = useSafeAreaInsets();
-    // console.log(movie);
 
     return (
         <View style={[styles.container, {paddingTop: insets.top+5}]}>
@@ -171,9 +223,17 @@ export default function MovieScreen() {
                     <TextComponent
                         text={movie.overview}
                         numberOfLine={10}
-                        style={{paddingTop: 10}}
+                        style={{paddingVertical: 10}}
                         color="#FFFFFF99"
                     />
+                    {genreList && 
+                        <GenreComponent genre_list={genreList} />
+                    }
+                    {certifications && 
+                        Array.from(certifications).map((cert) => (
+                            <Certification certification={cert} key={cert}/>
+                        ))
+                    }
                 </View>
             ) : (
                 <TextComponent text="Loading..." size={16} />
@@ -213,7 +273,6 @@ const styles = StyleSheet.create({
         height: Scale(67),
         justifyContent: 'space-evenly',
         alignItems: 'center',
-        // alignContent: 'space-between',
         flexDirection: 'row'
     },
     ott: {
@@ -226,5 +285,18 @@ const styles = StyleSheet.create({
     two_line_container: {
         flexDirection: 'column',
         alignItems: 'center'
-    }
+    },
+    certification: {
+        backgroundColor: "#FFFFFF29",
+        borderRadius: 4,
+        height: 15,
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginTop: 4,
+    },
+    hiddenText: {
+        position: 'absolute',
+        opacity: 0,
+        fontSize: 7.2,
+    },
 });

@@ -1,0 +1,1510 @@
+{
+    "adult": false,
+    "backdrop_path": "/qB7yhnWBQ2oiaG2PZ3N3zFFm5L3.jpg",
+    "created_by": [
+        {
+            "id": 85598,
+            "credit_id": "626d39e57cffda31dad33089",
+            "name": "Vikram Kumar",
+            "original_name": "Vikram Kumar",
+            "gender": 0,
+            "profile_path": "/sechyllCPAq9Xtr1EDh7mdKQVI3.jpg"
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2023-11-30",
+    "genres": [
+        {
+            "id": 9648,
+            "name": "Mystery"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "https://www.primevideo.com/detail/0U9GNC4J1WHF2ME4SLKFR80XAL/ref=atv_dp_share_cu_r",
+    "id": 200946,
+    "in_production": true,
+    "languages": [
+        "te"
+    ],
+    "last_air_date": "2023-11-30",
+    "last_episode_to_air": {
+        "id": 4962192,
+        "name": "Headlines",
+        "overview": "Priya becomes the target of a mysterious killer. As the events unfold, Sagar’s past and family secrets comes to light, Kranti begins to connect the dots to uncover the truth.",
+        "vote_average": 6.0,
+        "vote_count": 1,
+        "air_date": "2023-11-30",
+        "episode_number": 8,
+        "episode_type": "finale",
+        "production_code": "",
+        "runtime": 43,
+        "season_number": 1,
+        "show_id": 200946,
+        "still_path": "/qMd6CK4Jb4Horodr0yUMZENlhZO.jpg"
+    },
+    "name": "Dhootha",
+    "next_episode_to_air": null,
+    "networks": [
+        {
+            "id": 1024,
+            "logo_path": "/ifhbNuuVnlwYy5oXA5VIb2YR8AZ.png",
+            "name": "Prime Video",
+            "origin_country": ""
+        }
+    ],
+    "number_of_episodes": 8,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "IN"
+    ],
+    "original_language": "te",
+    "original_name": "దూత",
+    "overview": "Journalist Sagar's life turns thrilling as he unravels dark secrets behind newspaper clippings predicting tragedies. He becomes a murder suspect, racing against time to clear his name and solve the enigma and faces dangerous twists. Suspense builds in this roller-coaster ride.",
+    "popularity": 10.409,
+    "poster_path": "/jMegWqCj8z58na8RG8ytlPJ7gGm.jpg",
+    "production_companies": [
+        {
+            "id": 52091,
+            "logo_path": "/el4lnGAyXhPR77fWOCHV1I14diy.png",
+            "name": "Northstar Entertainment",
+            "origin_country": "IN"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "IN",
+            "name": "India"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2023-11-30",
+            "episode_count": 8,
+            "id": 291936,
+            "name": "Season 1",
+            "overview": "Journalist Sagar's life turns thrilling as he unravels dark secrets behind newspaper clippings predicting tragedies. He becomes a murder suspect, racing against time to clear his name and solve the enigma and faces dangerous twists. Suspense builds in this roller-coaster ride.",
+            "poster_path": "/rAJYO7nHUD4mL2XEREkTvXCFIQn.jpg",
+            "season_number": 1,
+            "vote_average": 6.3
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Telugu",
+            "iso_639_1": "te",
+            "name": "తెలుగు"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.0,
+    "vote_count": 13,
+    "translations": {
+        "translations": [
+            {
+                "iso_3166_1": "US",
+                "iso_639_1": "en",
+                "name": "English",
+                "english_name": "English",
+                "data": {
+                    "name": "Dhootha",
+                    "overview": "Journalist Sagar's life turns thrilling as he unravels dark secrets behind newspaper clippings predicting tragedies. He becomes a murder suspect, racing against time to clear his name and solve the enigma and faces dangerous twists. Suspense builds in this roller-coaster ride.",
+                    "homepage": "",
+                    "tagline": ""
+                }
+            },
+            {
+                "iso_3166_1": "IN",
+                "iso_639_1": "te",
+                "name": "తెలుగు",
+                "english_name": "Telugu",
+                "data": {
+                    "name": "",
+                    "overview": "",
+                    "homepage": "",
+                    "tagline": ""
+                }
+            },
+            {
+                "iso_3166_1": "HU",
+                "iso_639_1": "hu",
+                "name": "Magyar",
+                "english_name": "Hungarian",
+                "data": {
+                    "name": "Dootha - A hírnök",
+                    "overview": "Az újságíró Sagar élete izgalmasra fordul, amikor sötét titkokat fedez fel a tragédiákat előre jelző újságkivágások mögött. Gyilkossággal gyanúsítják, és versenyt kell futnia az idővel, hogy tisztázhassa magát. A rejtély megoldása számos veszélyes fordulatot tartogat, a rázós kaland során a feszültség egyre fokozódik.",
+                    "homepage": "",
+                    "tagline": ""
+                }
+            },
+            {
+                "iso_3166_1": "RU",
+                "iso_639_1": "ru",
+                "name": "Pусский",
+                "english_name": "Russian",
+                "data": {
+                    "name": "Вестник",
+                    "overview": "В этом сверхъестественном триллере жизнь журналиста Сагара переворачивается с ног на голову, когда газеты предсказывают леденящие душу инциденты, которые разворачиваются в его жизни.",
+                    "homepage": "",
+                    "tagline": ""
+                }
+            },
+            {
+                "iso_3166_1": "BR",
+                "iso_639_1": "pt",
+                "name": "Português",
+                "english_name": "Portuguese",
+                "data": {
+                    "name": "Dhootha: O Mensageiro",
+                    "overview": "A vida do jornalista Sagar fica emocionante à medida que ele desvenda segredos obscuros por trás de recortes de jornais que preveem tragédias. Ele se torna suspeito de assassinato, e corre contra o tempo para limpar seu nome e resolver o enigma, enfrentando reviravoltas perigosas. O suspense aumenta no desenrolar vertiginoso da série.",
+                    "homepage": "",
+                    "tagline": ""
+                }
+            },
+            {
+                "iso_3166_1": "KR",
+                "iso_639_1": "ko",
+                "name": "한국어/조선말",
+                "english_name": "Korean",
+                "data": {
+                    "name": "메신저",
+                    "overview": "비극을 예언하는 신문 기사 조각에 숨겨진 어두운 비밀이 밝혀지면서 기자인 사가르의 삶이 흔들린다. 살인 용의자로 지목된 사가르는 누명을 벗고 수수께끼를 풀기 위해 사투를 벌이면서 위험한 반전을 맞는다. 숨 막히는 짜릿한 여정이 시작되고 긴장감이 쌓여 간다.",
+                    "homepage": "",
+                    "tagline": ""
+                }
+            },
+            {
+                "iso_3166_1": "CN",
+                "iso_639_1": "zh",
+                "name": "普通话",
+                "english_name": "Mandarin",
+                "data": {
+                    "name": "使者",
+                    "overview": "记者萨加尔的生活突然变得惊心动魄，因为他发现了能够预测悲剧的报纸碎片背后的黑暗秘密。沦为杀人嫌犯并面临各种突发危险状况的他必须与时间赛跑，自证清白并解开谜团。在这一波三折的过程中，真相变得愈发扑朔迷离。",
+                    "homepage": "",
+                    "tagline": ""
+                }
+            },
+            {
+                "iso_3166_1": "FR",
+                "iso_639_1": "fr",
+                "name": "Français",
+                "english_name": "French",
+                "data": {
+                    "name": "Dhootha - Le Messager",
+                    "overview": "La vie du journaliste Sagar prend un tournant haletant quand il dévoile de sombres secrets derrière des coupures de journaux prédisant des tragédies. Il devient le suspect d'un meurtre et tente alors de prouver son innocence et de résoudre l'énigme, mais il est confronté à des rebondissements dangereux. Le suspense monte et on est pris de vertige dans ce thriller oppressant.",
+                    "homepage": "",
+                    "tagline": ""
+                }
+            },
+            {
+                "iso_3166_1": "TW",
+                "iso_639_1": "zh",
+                "name": "普通话",
+                "english_name": "Mandarin",
+                "data": {
+                    "name": "信使",
+                    "overview": "記者薩加爾揭開預言悲劇發生的剪報其背後隱藏的黑暗祕密，他的生活變得驚心動魄。他成了一名謀殺嫌疑人，與時間賽跑來洗清自己的罪名、解開謎團，並面臨危險的轉折。這變幻莫測的旅程充滿著懸念。",
+                    "homepage": "",
+                    "tagline": ""
+                }
+            },
+            {
+                "iso_3166_1": "TH",
+                "iso_639_1": "th",
+                "name": "ภาษาไทย",
+                "english_name": "Thai",
+                "data": {
+                    "name": "ผู้ส่งสาร",
+                    "overview": "ชีวิตของซาการ์ นักหนังสือพิมพ์พลิกผันอย่างน่ากลัวเมื่อเขาคลี่คลายความลับอันมืดมนเบื้องหลังข่าวตัดจากหนังสือพิมพ์ที่ทำนายโศกนาฏกรรม เขาตกเป็นผู้ต้องสงสัยในคดีฆาตกรรม และต้องรีบแข่งกับเวลาเพื่อพิสูจน์ความบริสุทธิ์ ไขปริศนา และเผชิญกับจุดพลิกผันที่อันตราย เขาจะต้องเจอกับความเครียดและความรู้สึกสงสัยกังวลใจที่ผันผวนอยู่ตลอด",
+                    "homepage": "",
+                    "tagline": ""
+                }
+            },
+            {
+                "iso_3166_1": "FI",
+                "iso_639_1": "fi",
+                "name": "suomi",
+                "english_name": "Finnish",
+                "data": {
+                    "name": "Dhootha",
+                    "overview": "Journalisti Sagarin elämä saa hätkähdyttävän käänteen hänen selvitellessään tragedioita ennustavien lehtileikkeiden synkkiä salaisuuksia. Päädyttyään epäillyksi murhasta hän juoksee kilpaa aikaa vastaan puhdistaakseen nimensä monen vaarallisen käänteen kautta. Vaiherikkaan tarinan pyörteissä jännitys tiivistyy tiivistymistään.",
+                    "homepage": "",
+                    "tagline": ""
+                }
+            },
+            {
+                "iso_3166_1": "PL",
+                "iso_639_1": "pl",
+                "name": "Polski",
+                "english_name": "Polish",
+                "data": {
+                    "name": "",
+                    "overview": "",
+                    "homepage": "",
+                    "tagline": ""
+                }
+            }
+        ]
+    },
+    "watch/providers": {
+        "results": {
+            "AD": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=AD",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "AE": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=AE",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 10
+                    }
+                ]
+            },
+            "AG": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=AG",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "AL": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=AL",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "AR": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=AR",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 2
+                    }
+                ]
+            },
+            "AT": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=AT",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 9,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    },
+                    {
+                        "logo_path": "/p4TlGiuRoH9sDZeppPJeMhizs26.jpg",
+                        "provider_id": 2100,
+                        "provider_name": "Amazon Prime Video with Ads",
+                        "display_priority": 67
+                    }
+                ]
+            },
+            "AU": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=AU",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 2
+                    }
+                ]
+            },
+            "BA": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=BA",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "BB": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=BB",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "BE": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=BE",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 2
+                    }
+                ]
+            },
+            "BG": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=BG",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "BH": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=BH",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "BM": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=BM",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "BO": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=BO",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "BR": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=BR",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "BS": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=BS",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "CA": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=CA",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 2
+                    },
+                    {
+                        "logo_path": "/p4TlGiuRoH9sDZeppPJeMhizs26.jpg",
+                        "provider_id": 2100,
+                        "provider_name": "Amazon Prime Video with Ads",
+                        "display_priority": 154
+                    }
+                ]
+            },
+            "CH": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=CH",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "CI": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=CI",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "CL": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=CL",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "CO": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=CO",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "CR": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=CR",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "CZ": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=CZ",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 2
+                    }
+                ]
+            },
+            "DE": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=DE",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 9,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    },
+                    {
+                        "logo_path": "/p4TlGiuRoH9sDZeppPJeMhizs26.jpg",
+                        "provider_id": 2100,
+                        "provider_name": "Amazon Prime Video with Ads",
+                        "display_priority": 159
+                    }
+                ]
+            },
+            "DK": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=DK",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 2
+                    }
+                ]
+            },
+            "DO": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=DO",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "DZ": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=DZ",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "EC": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=EC",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 2
+                    }
+                ]
+            },
+            "EE": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=EE",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "EG": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=EG",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "ES": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=ES",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 2
+                    }
+                ]
+            },
+            "FI": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=FI",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 2
+                    }
+                ]
+            },
+            "FR": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=FR",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 2
+                    }
+                ]
+            },
+            "GB": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=GB",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 9,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 2
+                    },
+                    {
+                        "logo_path": "/p4TlGiuRoH9sDZeppPJeMhizs26.jpg",
+                        "provider_id": 2100,
+                        "provider_name": "Amazon Prime Video with Ads",
+                        "display_priority": 139
+                    }
+                ]
+            },
+            "GF": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=GF",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "GG": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=GG",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "GH": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=GH",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "GI": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=GI",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "GR": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=GR",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "GT": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=GT",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 2
+                    }
+                ]
+            },
+            "HK": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=HK",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 5
+                    }
+                ]
+            },
+            "HN": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=HN",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "HR": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=HR",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "HU": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=HU",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 2
+                    }
+                ]
+            },
+            "ID": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=ID",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 7
+                    }
+                ]
+            },
+            "IE": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=IE",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "IL": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=IL",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "IN": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=IN",
+                "free": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ],
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "IQ": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=IQ",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "IS": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=IS",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 2
+                    }
+                ]
+            },
+            "IT": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=IT",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 2
+                    }
+                ]
+            },
+            "JM": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=JM",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "JO": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=JO",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "JP": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=JP",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 9,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 4
+                    }
+                ]
+            },
+            "KE": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=KE",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "KR": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=KR",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "KW": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=KW",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "LB": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=LB",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "LC": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=LC",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "LI": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=LI",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "LT": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=LT",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "LV": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=LV",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "LY": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=LY",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "MA": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=MA",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "MC": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=MC",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "MD": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=MD",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "MK": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=MK",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "MT": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=MT",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "MX": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=MX",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "MY": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=MY",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 9
+                    }
+                ]
+            },
+            "MZ": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=MZ",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "NE": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=NE",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "NG": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=NG",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "NL": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=NL",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 2
+                    }
+                ]
+            },
+            "NO": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=NO",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 2
+                    }
+                ]
+            },
+            "NZ": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=NZ",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 2
+                    }
+                ]
+            },
+            "OM": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=OM",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "PA": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=PA",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "PE": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=PE",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "PF": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=PF",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "PH": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=PH",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "PK": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=PK",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "PL": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=PL",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 5
+                    }
+                ]
+            },
+            "PS": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=PS",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "PT": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=PT",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 2
+                    }
+                ]
+            },
+            "PY": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=PY",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "QA": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=QA",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "RO": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=RO",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 2
+                    }
+                ]
+            },
+            "RS": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=RS",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "SA": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=SA",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 24
+                    }
+                ]
+            },
+            "SE": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=SE",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 2
+                    }
+                ]
+            },
+            "SG": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=SG",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "SI": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=SI",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "SK": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=SK",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 2
+                    }
+                ]
+            },
+            "SM": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=SM",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "SV": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=SV",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "TC": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=TC",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "TH": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=TH",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 3
+                    }
+                ]
+            },
+            "TN": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=TN",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "TR": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=TR",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 4
+                    }
+                ]
+            },
+            "TT": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=TT",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "TW": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=TW",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "UG": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=UG",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "US": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=US",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 9,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    },
+                    {
+                        "logo_path": "/p4TlGiuRoH9sDZeppPJeMhizs26.jpg",
+                        "provider_id": 2100,
+                        "provider_name": "Amazon Prime Video with Ads",
+                        "display_priority": 265
+                    }
+                ]
+            },
+            "UY": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=UY",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "VA": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=VA",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 0
+                    }
+                ]
+            },
+            "VE": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=VE",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 2
+                    }
+                ]
+            },
+            "YE": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=YE",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "ZA": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=ZA",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "ZM": {
+                "link": "https://www.themoviedb.org/tv/200946/watch?locale=ZM",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -23,7 +23,8 @@ export default function Notifications() {
                         imageUrl={notification.imageUrl}
                         title={notification.title}
                         message={notification.message}
-                        rating={notification.rating}       
+                        rating={notification.rating}     
+                        genre_list={notification.genre_list}  
                         key={notification.title}                 
                     />
                 ))}

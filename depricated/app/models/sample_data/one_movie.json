@@ -1,0 +1,2361 @@
+{
+    "adult": false,
+    "backdrop_path": "/wzPsJaZtMHjITNW93l6gw99T1u7.jpg",
+    "belongs_to_collection": {
+        "id": 1310970,
+        "name": "Kalki Collection",
+        "poster_path": null,
+        "backdrop_path": null
+    },
+    "budget": 75000000,
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 14,
+            "name": "Fantasy"
+        },
+        {
+            "id": 878,
+            "name": "Science Fiction"
+        }
+    ],
+    "homepage": "",
+    "id": 801688,
+    "imdb_id": "tt12735488",
+    "origin_country": [
+        "IN"
+    ],
+    "original_language": "te",
+    "original_title": "కల్కి 2898-ఎ.డి",
+    "overview": "In the year 2898 AD, around 6000 years after Kurukshetra war, Ashwatthama gears up for his final battle of redemption at the sign of hope in a dystopian world and Bhairava, a wisecracking and self-interested bounty hunter, tired of the perilous life becomes the hurdle in the process.",
+    "popularity": 46.62,
+    "poster_path": "/k28bVZp8vG3kkKiZGCq29WyFaHa.jpg",
+    "production_companies": [
+        {
+            "id": 80065,
+            "logo_path": "/9zMLq3789hC7qAPpbMl4TwaxJ69.png",
+            "name": "Vyjayanthi Movies",
+            "origin_country": "IN"
+        },
+        {
+            "id": 44098,
+            "logo_path": "/eplqXZD7BVDvu4E2QyKRFkL7rtJ.png",
+            "name": "Annapurna Studios",
+            "origin_country": "IN"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "IN",
+            "name": "India"
+        }
+    ],
+    "release_date": "2024-06-26",
+    "revenue": 141000000,
+    "runtime": 176,
+    "spoken_languages": [
+        {
+            "english_name": "Telugu",
+            "iso_639_1": "te",
+            "name": "తెలుగు"
+        }
+    ],
+    "status": "Released",
+    "tagline": "When the world is taken over by darkness, a new force will arise.",
+    "title": "Kalki 2898-AD",
+    "video": false,
+    "vote_average": 6.4,
+    "vote_count": 74,
+    "release_dates": {
+        "results": [
+            {
+                "iso_3166_1": "AU",
+                "release_dates": [
+                    {
+                        "certification": "",
+                        "descriptors": [],
+                        "iso_639_1": "",
+                        "note": "",
+                        "release_date": "2024-06-27T00:00:00.000Z",
+                        "type": 3
+                    }
+                ]
+            },
+            {
+                "iso_3166_1": "BR",
+                "release_dates": [
+                    {
+                        "certification": "",
+                        "descriptors": [],
+                        "iso_639_1": "",
+                        "note": "",
+                        "release_date": "2024-06-27T00:00:00.000Z",
+                        "type": 3
+                    }
+                ]
+            },
+            {
+                "iso_3166_1": "CA",
+                "release_dates": [
+                    {
+                        "certification": "",
+                        "descriptors": [],
+                        "iso_639_1": "",
+                        "note": "",
+                        "release_date": "2024-06-27T00:00:00.000Z",
+                        "type": 3
+                    }
+                ]
+            },
+            {
+                "iso_3166_1": "DE",
+                "release_dates": [
+                    {
+                        "certification": "",
+                        "descriptors": [],
+                        "iso_639_1": "",
+                        "note": "",
+                        "release_date": "2024-06-27T00:00:00.000Z",
+                        "type": 3
+                    }
+                ]
+            },
+            {
+                "iso_3166_1": "FR",
+                "release_dates": [
+                    {
+                        "certification": "",
+                        "descriptors": [],
+                        "iso_639_1": "",
+                        "note": "",
+                        "release_date": "2024-06-27T00:00:00.000Z",
+                        "type": 3
+                    }
+                ]
+            },
+            {
+                "iso_3166_1": "GB",
+                "release_dates": [
+                    {
+                        "certification": "12A",
+                        "descriptors": [],
+                        "iso_639_1": "",
+                        "note": "",
+                        "release_date": "2024-06-27T00:00:00.000Z",
+                        "type": 3
+                    }
+                ]
+            },
+            {
+                "iso_3166_1": "ID",
+                "release_dates": [
+                    {
+                        "certification": "",
+                        "descriptors": [],
+                        "iso_639_1": "",
+                        "note": "",
+                        "release_date": "2024-06-27T00:00:00.000Z",
+                        "type": 3
+                    }
+                ]
+            },
+            {
+                "iso_3166_1": "IE",
+                "release_dates": [
+                    {
+                        "certification": "",
+                        "descriptors": [],
+                        "iso_639_1": "",
+                        "note": "",
+                        "release_date": "2024-06-27T00:00:00.000Z",
+                        "type": 3
+                    }
+                ]
+            },
+            {
+                "iso_3166_1": "IL",
+                "release_dates": [
+                    {
+                        "certification": "",
+                        "descriptors": [],
+                        "iso_639_1": "",
+                        "note": "",
+                        "release_date": "2024-06-27T00:00:00.000Z",
+                        "type": 3
+                    }
+                ]
+            },
+            {
+                "iso_3166_1": "IN",
+                "release_dates": [
+                    {
+                        "certification": "UA",
+                        "descriptors": [],
+                        "iso_639_1": "te",
+                        "note": "",
+                        "release_date": "2024-06-27T00:00:00.000Z",
+                        "type": 3
+                    },
+                    {
+                        "certification": "",
+                        "descriptors": [],
+                        "iso_639_1": "hi",
+                        "note": "Netflix",
+                        "release_date": "2024-08-22T00:00:00.000Z",
+                        "type": 4
+                    }
+                ]
+            },
+            {
+                "iso_3166_1": "IT",
+                "release_dates": [
+                    {
+                        "certification": "",
+                        "descriptors": [],
+                        "iso_639_1": "",
+                        "note": "",
+                        "release_date": "2024-06-27T00:00:00.000Z",
+                        "type": 3
+                    }
+                ]
+            },
+            {
+                "iso_3166_1": "JP",
+                "release_dates": [
+                    {
+                        "certification": "",
+                        "descriptors": [],
+                        "iso_639_1": "",
+                        "note": "",
+                        "release_date": "2024-06-27T00:00:00.000Z",
+                        "type": 3
+                    }
+                ]
+            },
+            {
+                "iso_3166_1": "KR",
+                "release_dates": [
+                    {
+                        "certification": "15",
+                        "descriptors": [],
+                        "iso_639_1": "",
+                        "note": "Busan International Film Festival",
+                        "release_date": "2024-10-08T00:00:00.000Z",
+                        "type": 1
+                    }
+                ]
+            },
+            {
+                "iso_3166_1": "MX",
+                "release_dates": [
+                    {
+                        "certification": "",
+                        "descriptors": [],
+                        "iso_639_1": "",
+                        "note": "",
+                        "release_date": "2024-06-27T00:00:00.000Z",
+                        "type": 3
+                    }
+                ]
+            },
+            {
+                "iso_3166_1": "MY",
+                "release_dates": [
+                    {
+                        "certification": "",
+                        "descriptors": [],
+                        "iso_639_1": "",
+                        "note": "",
+                        "release_date": "2024-06-27T00:00:00.000Z",
+                        "type": 3
+                    }
+                ]
+            },
+            {
+                "iso_3166_1": "NO",
+                "release_dates": [
+                    {
+                        "certification": "",
+                        "descriptors": [],
+                        "iso_639_1": "",
+                        "note": "",
+                        "release_date": "2024-06-27T00:00:00.000Z",
+                        "type": 3
+                    }
+                ]
+            },
+            {
+                "iso_3166_1": "PL",
+                "release_dates": [
+                    {
+                        "certification": "",
+                        "descriptors": [],
+                        "iso_639_1": "",
+                        "note": "",
+                        "release_date": "2024-06-28T00:00:00.000Z",
+                        "type": 3
+                    }
+                ]
+            },
+            {
+                "iso_3166_1": "SG",
+                "release_dates": [
+                    {
+                        "certification": "",
+                        "descriptors": [],
+                        "iso_639_1": "",
+                        "note": "",
+                        "release_date": "2024-06-27T00:00:00.000Z",
+                        "type": 3
+                    }
+                ]
+            },
+            {
+                "iso_3166_1": "US",
+                "release_dates": [
+                    {
+                        "certification": "PG-13",
+                        "descriptors": [],
+                        "iso_639_1": "",
+                        "note": "",
+                        "release_date": "2024-06-26T00:00:00.000Z",
+                        "type": 3
+                    }
+                ]
+            }
+        ]
+    },
+    "translations": {
+        "translations": [
+            {
+                "iso_3166_1": "US",
+                "iso_639_1": "en",
+                "name": "English",
+                "english_name": "English",
+                "data": {
+                    "homepage": "",
+                    "overview": "In the year 2898 AD, around 6000 years after Kurukshetra war, Ashwatthama gears up for his final battle of redemption at the sign of hope in a dystopian world and Bhairava, a wisecracking and self-interested bounty hunter, tired of the perilous life becomes the hurdle in the process.",
+                    "runtime": 176,
+                    "tagline": "When the world is taken over by darkness, a new force will arise.",
+                    "title": "Kalki 2898-AD"
+                }
+            },
+            {
+                "iso_3166_1": "IN",
+                "iso_639_1": "hi",
+                "name": "हिन्दी",
+                "english_name": "Hindi",
+                "data": {
+                    "homepage": "",
+                    "overview": "",
+                    "runtime": 0,
+                    "tagline": "",
+                    "title": ""
+                }
+            },
+            {
+                "iso_3166_1": "IN",
+                "iso_639_1": "te",
+                "name": "తెలుగు",
+                "english_name": "Telugu",
+                "data": {
+                    "homepage": "",
+                    "overview": "",
+                    "runtime": 0,
+                    "tagline": "",
+                    "title": ""
+                }
+            },
+            {
+                "iso_3166_1": "IN",
+                "iso_639_1": "ta",
+                "name": "தமிழ்",
+                "english_name": "Tamil",
+                "data": {
+                    "homepage": "",
+                    "overview": "",
+                    "runtime": 0,
+                    "tagline": "",
+                    "title": ""
+                }
+            },
+            {
+                "iso_3166_1": "AE",
+                "iso_639_1": "ar",
+                "name": "العربية",
+                "english_name": "Arabic",
+                "data": {
+                    "homepage": "",
+                    "overview": "عندما يسيطر الظلام على العالم ، ستنشأ قوة جديدة.",
+                    "runtime": 0,
+                    "tagline": "",
+                    "title": "كالكي ٢٨٩٨ - اي.دي"
+                }
+            },
+            {
+                "iso_3166_1": "NL",
+                "iso_639_1": "nl",
+                "name": "Nederlands",
+                "english_name": "Dutch",
+                "data": {
+                    "homepage": "",
+                    "overview": "Wanneer de wereld wordt overgenomen door duisternis, zal er een nieuwe kracht ontstaan.",
+                    "runtime": 0,
+                    "tagline": "",
+                    "title": ""
+                }
+            },
+            {
+                "iso_3166_1": "PT",
+                "iso_639_1": "pt",
+                "name": "Português",
+                "english_name": "Portuguese",
+                "data": {
+                    "homepage": "",
+                    "overview": "Bhairava, cansado dos confins opressivos de sua terra natal e da vida perigosa de um caçador de recompensas, anseia por uma existência mais confortável no Complexo. Sua busca por uma nova vida o envolve inadvertidamente com um grupo de rebeldes dedicados a libertar a humanidade das garras de forças malévolas.",
+                    "runtime": 0,
+                    "tagline": "",
+                    "title": "Kalki 2898 - d.C."
+                }
+            },
+            {
+                "iso_3166_1": "IN",
+                "iso_639_1": "kn",
+                "name": "?????",
+                "english_name": "Kannada",
+                "data": {
+                    "homepage": "",
+                    "overview": "",
+                    "runtime": 0,
+                    "tagline": "",
+                    "title": ""
+                }
+            },
+            {
+                "iso_3166_1": "IN",
+                "iso_639_1": "ml",
+                "name": "",
+                "english_name": "Malayalam",
+                "data": {
+                    "homepage": "",
+                    "overview": "",
+                    "runtime": 0,
+                    "tagline": "",
+                    "title": ""
+                }
+            },
+            {
+                "iso_3166_1": "IL",
+                "iso_639_1": "he",
+                "name": "עִבְרִית",
+                "english_name": "Hebrew",
+                "data": {
+                    "homepage": "",
+                    "overview": "מיתולוגיה הודית המתארת את ההתגשמות המודרנית של וישנו, אל הינדי, אשר מאמינים כי ירד לכדור הארץ כדי להגן על העולם מפני כוחות רשע.",
+                    "runtime": 120,
+                    "tagline": "",
+                    "title": "קאלקי – אחרית הימים"
+                }
+            },
+            {
+                "iso_3166_1": "PL",
+                "iso_639_1": "pl",
+                "name": "Polski",
+                "english_name": "Polish",
+                "data": {
+                    "homepage": "",
+                    "overview": "",
+                    "runtime": 0,
+                    "tagline": "",
+                    "title": ""
+                }
+            },
+            {
+                "iso_3166_1": "TW",
+                "iso_639_1": "zh",
+                "name": "普通话",
+                "english_name": "Mandarin",
+                "data": {
+                    "homepage": "",
+                    "overview": "當世界陷入黑暗，一股新力量即將崛起。\r 電影《毗濕奴降臨》（Kalki 2898-AD）背景設定在後末日世界，當黑暗力量威脅世界時，毗濕奴的化身——Kalki 將崛起拯救世界。電影融合了印度史詩《摩訶婆羅多》的元素，將神話與科幻相結合，展現了一場史詩般的戰爭。影片充滿了動作場面與精美視效，古老傳說和未來科技交織，",
+                    "runtime": 180,
+                    "tagline": "",
+                    "title": "毗濕奴降臨"
+                }
+            },
+            {
+                "iso_3166_1": "CN",
+                "iso_639_1": "zh",
+                "name": "普通话",
+                "english_name": "Mandarin",
+                "data": {
+                    "homepage": "",
+                    "overview": "公元2898年，大约在库鲁克谢特拉战争后6000年，阿什瓦塔马在反乌托邦世界的希望标志处准备他最后的救赎之战，而Bhairava，一个说俏皮话、自私自利的赏金猎人，厌倦了危险的生活，成为了这个过程中的障碍。",
+                    "runtime": 0,
+                    "tagline": "",
+                    "title": "毗湿奴降临"
+                }
+            },
+            {
+                "iso_3166_1": "FR",
+                "iso_639_1": "fr",
+                "name": "Français",
+                "english_name": "French",
+                "data": {
+                    "homepage": "",
+                    "overview": "En l'an 2898 de notre ère, environ 6000 ans après la guerre de Kurukshetra, Ashwatthama se prépare à son ultime bataille de rédemption, signe d'espoir dans un monde dystopique, et Bhairava, un chasseur de primes malicieux et intéressé, fatigué d'une vie périlleuse, devient l'obstacle de ce processus.",
+                    "runtime": 0,
+                    "tagline": "",
+                    "title": "Kalki 2898 AD"
+                }
+            },
+            {
+                "iso_3166_1": "JP",
+                "iso_639_1": "ja",
+                "name": "日本語",
+                "english_name": "Japanese",
+                "data": {
+                    "homepage": "",
+                    "overview": "故郷の抑圧的な束縛と賞金稼ぎの危険な生活にうんざりしたバイラヴァは、コンプレックスでのより快適な生活に憧れている。新しい生活を求めるバイラヴァは、人類を悪意ある勢力の支配から解放することに専心する反乱軍の集団と、うっかり絡み合うことになる。",
+                    "runtime": 0,
+                    "tagline": "",
+                    "title": "Kalki 2898 AD"
+                }
+            },
+            {
+                "iso_3166_1": "RU",
+                "iso_639_1": "ru",
+                "name": "Pусский",
+                "english_name": "Russian",
+                "data": {
+                    "homepage": "",
+                    "overview": "Бхайрава, уставший от гнетущих рамок своей родины и опасной жизни охотника за головами, жаждет более комфортного существования в Комплексе. В поисках новой жизни он случайно связывается с группой повстанцев, стремящихся освободить человечество от власти злых сил.",
+                    "runtime": 0,
+                    "tagline": "",
+                    "title": "Калки, 2898 год нашей эры"
+                }
+            },
+            {
+                "iso_3166_1": "IT",
+                "iso_639_1": "it",
+                "name": "Italiano",
+                "english_name": "Italian",
+                "data": {
+                    "homepage": "",
+                    "overview": "",
+                    "runtime": 0,
+                    "tagline": "",
+                    "title": "Kalki 2898-AD"
+                }
+            },
+            {
+                "iso_3166_1": "TR",
+                "iso_639_1": "tr",
+                "name": "Türkçe",
+                "english_name": "Turkish",
+                "data": {
+                    "homepage": "",
+                    "overview": "Bhairava, memleketinin baskıcı sınırlarından ve bir ödül avcısının tehlikeli hayatından bıkmış, Kompleks'te daha rahat bir yaşam özlemi çekmektedir. Yeni bir hayat arayışı, onu istemeden insanlığı kötü niyetli güçlerin pençesinden kurtarmaya adanmış bir grup isyancıyla bir araya getirir.",
+                    "runtime": 0,
+                    "tagline": "",
+                    "title": "Kalki 2898-AD"
+                }
+            },
+            {
+                "iso_3166_1": "ES",
+                "iso_639_1": "ca",
+                "name": "Català",
+                "english_name": "Catalan",
+                "data": {
+                    "homepage": "",
+                    "overview": "L'any 2898 dC, al voltant de 6000 anys després de la guerra de Kurukshetra, Ashwatthama es prepara per a la batalla final de redempció davant el signe de l'esperança en un món distòpic i Bhairava, un caçador de recompenses astut i interessat, cansat de la vida perillosa es converteix en l'obstacle en el procés.",
+                    "runtime": 0,
+                    "tagline": "",
+                    "title": ""
+                }
+            },
+            {
+                "iso_3166_1": "KR",
+                "iso_639_1": "ko",
+                "name": "한국어/조선말",
+                "english_name": "Korean",
+                "data": {
+                    "homepage": "",
+                    "overview": "인류가 시작되기 이전, 태고의 어느 시기, 전쟁에서 패배한 아쉬와타마는 다음 인류에서 구원을 얻게 되기 전까지 죽지 못하는 저주를 받는다. 그로부터 6,000년이 지나 전쟁과 살육으로 점철된 현생 인류가 도달하게 된 디스토피아. 하나의 정부가 모든 군대와 자원을 통제하며, 돈이 있는 사람들만이 콤플렉스라 불리는 대규모 단지에서 상대적으로 평안한 삶을 영위할 수 있다. 콤플렉스에서는 프로젝트 K라는, 가임기 여성들을 대상으로 하는 비밀 실험이 진행되고 있다.",
+                    "runtime": 176,
+                    "tagline": "",
+                    "title": "칼키 AD 2898년"
+                }
+            },
+            {
+                "iso_3166_1": "SA",
+                "iso_639_1": "ar",
+                "name": "العربية",
+                "english_name": "Arabic",
+                "data": {
+                    "homepage": "",
+                    "overview": "في عام ٢٨٩٨ ميلادي ، بعد حوالي ٦٠٠٠ عام من حرب كوروكشترا، يستعد أشواتاما لمعركته الأخيرة من أجل الخلاص عند علامة الأمل في عالم بائس، ويصبح بهايرافا، صائد الجوائز الحكيم والمهتم بمصالحه الذاتية، الذي سئم الحياة المحفوفة بالمخاطر، هو البطل. عقبة في هذه العملية.",
+                    "runtime": 0,
+                    "tagline": "عندما يسيطر الظلام على العالم، ستظهر قوة جديدة.",
+                    "title": "كالكي ٢٨٩٨ ميلادي"
+                }
+            },
+            {
+                "iso_3166_1": "CZ",
+                "iso_639_1": "cs",
+                "name": "Český",
+                "english_name": "Czech",
+                "data": {
+                    "homepage": "",
+                    "overview": "V roce 2898 našeho letopočtu, přibližně 6000 let po válce v Kurukšetře, se Ašvatthama chystá na poslední bitvu o vykoupení ve znamení naděje v dystopickém světě a překážkou v tomto procesu se stává Bhairava, moudrý a sobecký lovec odměn, unavený nebezpečným životem.",
+                    "runtime": 0,
+                    "tagline": "",
+                    "title": ""
+                }
+            },
+            {
+                "iso_3166_1": "ES",
+                "iso_639_1": "es",
+                "name": "Español",
+                "english_name": "Spanish",
+                "data": {
+                    "homepage": "",
+                    "overview": "La historia se desarrolla en un futuro lejano, en el año 2898 AD. El mundo está en caos y decadencia, y una sociedad llamada 'The Complex', formada por la élite y los ricos, tiene acceso a todos los recursos restantes del planeta. Aquellos que no pudieron comprar su entrada en el complejo viven en extensos barrios marginales, donde la comida y el agua son muy escasas.  En este mundo, llega un rayo de esperanza, donde la gente cree que Dios vendrá a rescatarlos en forma de un avatar. Ashwathama, un guerrero inmortal de la era del Mahabharata, busca redención protegiendo al niño que reside en el vientre de Sumathi.  Al mismo tiempo, The Complex intenta capturar a Sumathi, colocando una recompensa por su cabeza. Aquí es donde entra Bhairava, un cazarrecompensas. Él intenta luchar contra Ashwathama y reclamar la recompensa para sí mismo.",
+                    "runtime": 0,
+                    "tagline": "",
+                    "title": "Kalki 2898 AD"
+                }
+            }
+        ]
+    },
+    "watch/providers": {
+        "results": {
+            "AD": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=AD",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "AE": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=AE",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 10
+                    }
+                ]
+            },
+            "AG": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=AG",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "AL": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=AL",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "AO": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=AO",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 4
+                    }
+                ]
+            },
+            "AR": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=AR",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "AT": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=AT",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    }
+                ]
+            },
+            "AU": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=AU",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 1
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 2
+                    },
+                    {
+                        "logo_path": "/kICQccvOh8AIBMHGkBXJ047xeHN.jpg",
+                        "provider_id": 1796,
+                        "provider_name": "Netflix basic with Ads",
+                        "display_priority": 54
+                    }
+                ]
+            },
+            "AZ": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=AZ",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 2
+                    }
+                ]
+            },
+            "BA": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=BA",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "BB": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=BB",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "BE": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=BE",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "BG": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=BG",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    }
+                ]
+            },
+            "BH": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=BH",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "BM": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=BM",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "BO": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=BO",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "BS": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=BS",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "BY": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=BY",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 6
+                    }
+                ]
+            },
+            "BZ": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=BZ",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 7
+                    }
+                ]
+            },
+            "CA": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=CA",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 2
+                    },
+                    {
+                        "logo_path": "/kICQccvOh8AIBMHGkBXJ047xeHN.jpg",
+                        "provider_id": 1796,
+                        "provider_name": "Netflix basic with Ads",
+                        "display_priority": 112
+                    },
+                    {
+                        "logo_path": "/p4TlGiuRoH9sDZeppPJeMhizs26.jpg",
+                        "provider_id": 2100,
+                        "provider_name": "Amazon Prime Video with Ads",
+                        "display_priority": 154
+                    }
+                ]
+            },
+            "CH": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=CH",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    }
+                ]
+            },
+            "CI": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=CI",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "CL": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=CL",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 2
+                    }
+                ]
+            },
+            "CM": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=CM",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 4
+                    }
+                ]
+            },
+            "CR": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=CR",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "CV": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=CV",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    }
+                ]
+            },
+            "CY": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=CY",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 7
+                    }
+                ]
+            },
+            "CZ": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=CZ",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "DE": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=DE",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/kICQccvOh8AIBMHGkBXJ047xeHN.jpg",
+                        "provider_id": 1796,
+                        "provider_name": "Netflix basic with Ads",
+                        "display_priority": 104
+                    }
+                ]
+            },
+            "DK": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=DK",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "DO": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=DO",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "DZ": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=DZ",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "EC": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=EC",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 2
+                    }
+                ]
+            },
+            "EE": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=EE",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    }
+                ]
+            },
+            "EG": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=EG",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "FI": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=FI",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "FJ": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=FJ",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    }
+                ]
+            },
+            "GB": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=GB",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 9,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 2
+                    },
+                    {
+                        "logo_path": "/kICQccvOh8AIBMHGkBXJ047xeHN.jpg",
+                        "provider_id": 1796,
+                        "provider_name": "Netflix basic with Ads",
+                        "display_priority": 101
+                    },
+                    {
+                        "logo_path": "/p4TlGiuRoH9sDZeppPJeMhizs26.jpg",
+                        "provider_id": 2100,
+                        "provider_name": "Amazon Prime Video with Ads",
+                        "display_priority": 139
+                    }
+                ]
+            },
+            "GF": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=GF",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "GG": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=GG",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "GH": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=GH",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "GI": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=GI",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "GQ": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=GQ",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    }
+                ]
+            },
+            "GR": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=GR",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    }
+                ]
+            },
+            "GT": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=GT",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 2
+                    }
+                ]
+            },
+            "HK": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=HK",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 1
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 5
+                    }
+                ]
+            },
+            "HN": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=HN",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "HR": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=HR",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    }
+                ]
+            },
+            "HU": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=HU",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "ID": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=ID",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 7
+                    }
+                ]
+            },
+            "IE": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=IE",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    }
+                ]
+            },
+            "IL": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=IL",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "IN": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=IN",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ],
+                "rent": [
+                    {
+                        "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+                        "provider_id": 10,
+                        "provider_name": "Amazon Video",
+                        "display_priority": 44
+                    }
+                ]
+            },
+            "IQ": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=IQ",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "IS": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=IS",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 2
+                    }
+                ]
+            },
+            "IT": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=IT",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 1
+                    },
+                    {
+                        "logo_path": "/kICQccvOh8AIBMHGkBXJ047xeHN.jpg",
+                        "provider_id": 1796,
+                        "provider_name": "Netflix basic with Ads",
+                        "display_priority": 65
+                    }
+                ]
+            },
+            "JM": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=JM",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "JO": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=JO",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "KE": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=KE",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "KR": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=KR",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "KW": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=KW",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "LB": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=LB",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "LC": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=LC",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "LI": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=LI",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "LT": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=LT",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    }
+                ]
+            },
+            "LU": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=LU",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 8
+                    }
+                ]
+            },
+            "LV": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=LV",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    }
+                ]
+            },
+            "LY": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=LY",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "MA": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=MA",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "MC": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=MC",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "MD": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=MD",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "ME": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=ME",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 4
+                    }
+                ]
+            },
+            "MG": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=MG",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 4
+                    }
+                ]
+            },
+            "MK": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=MK",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "ML": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=ML",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 5
+                    }
+                ]
+            },
+            "MT": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=MT",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    }
+                ]
+            },
+            "MU": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=MU",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    }
+                ]
+            },
+            "MY": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=MY",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 1
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 9
+                    }
+                ]
+            },
+            "MZ": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=MZ",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "NE": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=NE",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "NG": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=NG",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "NL": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=NL",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    }
+                ]
+            },
+            "NZ": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=NZ",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 1
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 2
+                    }
+                ]
+            },
+            "OM": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=OM",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "PA": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=PA",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "PF": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=PF",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "PH": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=PH",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "PK": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=PK",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "PL": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=PL",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "PS": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=PS",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "PY": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=PY",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "QA": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=QA",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "RO": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=RO",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "RS": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=RS",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "SA": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=SA",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 24
+                    }
+                ]
+            },
+            "SC": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=SC",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    }
+                ]
+            },
+            "SE": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=SE",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "SG": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=SG",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "SI": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=SI",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    }
+                ]
+            },
+            "SK": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=SK",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "SM": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=SM",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "SN": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=SN",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    }
+                ]
+            },
+            "SV": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=SV",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "TC": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=TC",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "TH": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=TH",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 1
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 3
+                    }
+                ]
+            },
+            "TN": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=TN",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "TR": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=TR",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "TT": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=TT",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "TW": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=TW",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "TZ": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=TZ",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    }
+                ]
+            },
+            "UG": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=UG",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "US": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=US",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 9,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    },
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 7
+                    },
+                    {
+                        "logo_path": "/kICQccvOh8AIBMHGkBXJ047xeHN.jpg",
+                        "provider_id": 1796,
+                        "provider_name": "Netflix basic with Ads",
+                        "display_priority": 182
+                    },
+                    {
+                        "logo_path": "/p4TlGiuRoH9sDZeppPJeMhizs26.jpg",
+                        "provider_id": 2100,
+                        "provider_name": "Amazon Prime Video with Ads",
+                        "display_priority": 265
+                    }
+                ]
+            },
+            "UY": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=UY",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "VA": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=VA",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 0
+                    }
+                ]
+            },
+            "VE": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=VE",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 2
+                    }
+                ]
+            },
+            "YE": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=YE",
+                "flatrate": [
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "ZA": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=ZA",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "ZM": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=ZM",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 0
+                    },
+                    {
+                        "logo_path": "/dQeAar5H991VYporEjUspolDarG.jpg",
+                        "provider_id": 119,
+                        "provider_name": "Amazon Prime Video",
+                        "display_priority": 1
+                    }
+                ]
+            },
+            "ZW": {
+                "link": "https://www.themoviedb.org/movie/801688-2898/watch?locale=ZW",
+                "flatrate": [
+                    {
+                        "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                        "provider_id": 8,
+                        "provider_name": "Netflix",
+                        "display_priority": 5
+                    }
+                ]
+            }
+        }
+    }
+}

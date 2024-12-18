@@ -3,19 +3,21 @@ import { StyleSheet, TouchableOpacity, Image, View } from "react-native";
 import TextComponent from "./TextComponents";
 import RatingComponent from "./RatingComponent";
 import Scale from "@/constants/Scale";
+import GenreComponent from "./GenreComponent";
 
 interface Notification {
     imageUrl: string
     message: string,
     title: string,
-    rating: number
+    rating: number,
+    genre_list: string[]
 };
 
 export interface NotificationData {
     notifications: Notification[]
 };
 
-export default function NotificationComponent({imageUrl, message, title, rating} : Notification) {
+export default function NotificationComponent({imageUrl, message, title, rating, genre_list} : Notification) {
     return (
         <TouchableOpacity style={styles.contentItem}>
             <Image
@@ -40,9 +42,12 @@ export default function NotificationComponent({imageUrl, message, title, rating}
                     />
                     {/* OTT platform will come here  */}
                 </View>
-                <View style={styles.rating}>
+                <View style={styles.rating_n_genre}>
                     {/* Rating and genre will come here */}
-                    <RatingComponent rating = {rating}/>
+                    <View style={styles.rating}>
+                        <RatingComponent rating = {rating}/>
+                    </View>
+                    <GenreComponent genre_list={genre_list} />
                 </View>
             </View>
         </TouchableOpacity>
@@ -74,7 +79,10 @@ const styles = StyleSheet.create({
     titleText:{
         fontWeight: 'bold',
     },
+    rating_n_genre: {
+        flexDirection: 'row',
+    },
     rating: {
-        
+        paddingRight: 10,
     }
 });

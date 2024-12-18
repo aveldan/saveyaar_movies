@@ -1,6 +1,8 @@
-from fastapi import APIRouter
+from typing import Literal
+from fastapi import APIRouter, Query
 from beanie import PydanticObjectId
 
+from app.core.content import movies
 
 router = APIRouter()
 
@@ -8,16 +10,14 @@ router = APIRouter()
 async def tester(ss: str | None = None):
     return {"Got it": ss}
 
-@router.get("/latest")
-async def getLatestContent(movies: bool | None = None, tv: bool | None = None):
+@router.get("/movies")
+async def getContentMovies(release_date: Literal['This Week', 'This Month', 'Upcoming']):
     """
     Get the latest content available to watch
-
-    - If `movies` is set to true return only movies
-    - If `tv` is set to true return only tv shows
-    - If both `movies` and  `tv` is `None` return combination
     """
-    pass
+    
+    res = await movies(relase_date=release_date)
+    return res
 
 
 @router.get("/{contentID}")

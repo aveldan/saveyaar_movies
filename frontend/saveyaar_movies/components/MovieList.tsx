@@ -7,14 +7,14 @@ import TextComponent from "./TextComponents";
 import { BellIcon, HeartIcon } from "@/assets/svg";
 import { TMDB_KEY, IMAGE_URL } from  '@env';
 
-interface MovieType {
+export interface MovieType {
     id: number;
     poster_path: string;
     title: string;
     backdrop_path: string,
 }
 
-interface MovieListType {
+export interface MovieListType {
     rowTitle: string;
     movies: MovieType[];
 }

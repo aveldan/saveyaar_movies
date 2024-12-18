@@ -1,14 +1,14 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {  useRouter } from "expo-router";
 import { usePathname } from "expo-router";
 import Animated, {  useAnimatedScrollHandler, useSharedValue, withTiming } from "react-native-reanimated";
 
 import TabScreenWrapper from "../../components/TabScreenWrapper";
-import movieData from "@/data/data.json";
-import { MoviesData } from "@/components/MovieList";
+import { MoviesData, MovieType, MovieListType} from "@/components/MovieList";
 import { styles } from "@/styles";
 import HomeScreenHeader from "@/components/HomeScreenHeader";
 import HomeView from "@/components/HomeView";
+import { CONTENT_URL, TMDB_KEY } from "@env";
 
 export default function HomeScreen() {
 
@@ -20,6 +20,93 @@ export default function HomeScreen() {
 	const SLIDE_ACTIVATION_POINT = 90;
 	const scrollY = useSharedValue(0);
 	const lastScrollY = useSharedValue(0);
+
+	const [movieData, setMovieData] = useState<MoviesData | null>(null);
+
+
+	const handlePressMidTab1 = (text: string) => {
+		setMidTab1((prevTabs) => (
+			prevTabs.map((tab) => (
+				tab.text === text? {...tab, isActive: true} : {...tab, isActive: false}
+			))
+		));
+	};
+
+	const [midTab1, setMidTab1] = useState([
+		{
+			text: "Movies",
+			handleOnPress: () => handlePressMidTab1("Movies"),
+			isActive: true,
+		},
+		{
+			text: "TV Shows",
+			handleOnPress: () => handlePressMidTab1("TV Shows"),
+			isActive: false,
+		}
+	]);
+
+
+	const handleOnPressMidTab2 = (text: string) => {
+		setMidTab2((prevTabs) => (
+			prevTabs.map((tab) => (
+				tab.text === text ? {...tab, isActive: true} : {...tab, isActive: false}
+			))
+		));
+	}
+
+	const [midTab2, setMidTab2] = useState([
+		{
+			text: "This Week",
+			handleOnPress: () => handleOnPressMidTab2("This Week"),
+			isActive: false,
+		},
+		{
+			text: "This Month",
+			handleOnPress: () => handleOnPressMidTab2("This Month"),
+			isActive: true
+		},
+		{
+			text: "Upcoming",
+			handleOnPress: () => handleOnPressMidTab2("Upcoming"),
+			isActive: false,
+		}
+	]);
+
+
+	useEffect(() => {
+		let content = "movies";
+		const mapedValues: { [key: string]: string } = {
+			"Movies": "movies",
+			"TV Shows": "tvs"
+		};
+
+		midTab1.forEach(tab => {
+			if(tab.isActive){
+				content = mapedValues[tab.text]
+			}
+		});
+
+		const url = new URL(`${CONTENT_URL}/${content}`);
+
+		midTab2.forEach(tab => {
+			if(tab.isActive){
+				url.searchParams.append('release_date', tab.text);
+			}
+		});
+
+		const fetch_content = async () => {
+			const response = await fetch(url.toString());
+			if(response.status === 200) {
+				const data: MoviesData = await response.json();
+				setMovieData(data)
+			} else {
+				console.error(`Error: Received status code ${response.status} when trying to access content`);
+			}
+		};
+
+		fetch_content();
+	}, [midTab1, midTab2]);
+
 
 	const scrollHandler = useAnimatedScrollHandler({
 		onScroll: (event) => {
@@ -53,9 +140,7 @@ export default function HomeScreen() {
 	const handleNotification = () => {
 		router.push("/notifications")
 	};
-	
-	const { featured, movies } = movieData as MoviesData;
-	
+		
 	return (
 		<TabScreenWrapper isActive={isActive} slideDirection="right">
 			<Animated.ScrollView 
@@ -69,7 +154,7 @@ export default function HomeScreen() {
 					handleProfile={handleProfile}
 					handleNotification={handleNotification}
 				/>
-				<HomeView featured={featured} movies={movies} />
+				<HomeView movieData={movieData} midTab1={midTab1} midTab2={midTab2}/>
 			</Animated.ScrollView>
 		</TabScreenWrapper>
 	);

@@ -1,0 +1,372 @@
+{
+    "page": 1,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/90YMcKEzcyeDT71W8wOMxsAc32b.jpg",
+            "genre_ids": [],
+            "id": 1362191,
+            "original_language": "te",
+            "original_title": "RTI",
+            "overview": "A handicapped lawyer and her father are on a mission to fight cases related to a suicide case that opens the famous ACT \"R.T.I\" and stumbles upon a larger conspiracy later on.",
+            "popularity": 3.254,
+            "poster_path": "/lu32MRMdaALizMwi4c4VdmPHIuc.jpg",
+            "release_date": "2024-09-26",
+            "title": "RTI",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/hAQnXxOwCjgYcKRgTdYPRC8neqL.jpg",
+            "genre_ids": [
+                28,
+                18
+            ],
+            "id": 811941,
+            "original_language": "te",
+            "original_title": "దేవర: Part 1",
+            "overview": "Devara, a fearless man from a coastal region, embarks on a perilous journey into the treacherous world of the sea to safeguard the lives of his people. Unbeknownst to him, his brother Bhaira is plotting a conspiracy against him. As events unfold, Devara passes on his legacy to his mild-mannered and timid son, Varada.",
+            "popularity": 93.967,
+            "poster_path": "/1105WNYals12Va2f4F3VeBZdcWX.jpg",
+            "release_date": "2024-09-26",
+            "title": "Devara: Part 1",
+            "video": false,
+            "vote_average": 6.5,
+            "vote_count": 2
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                18
+            ],
+            "id": 1360977,
+            "original_language": "te",
+            "original_title": "BITCH",
+            "overview": "A conversational social commentary that goes through a series of discussions, exploring the intrapersonal struggle between standing up for your morals and wanting to be part of a group.  The second short film from the makers of 02:30 ( TWO THIRTY), made on a zero budget, but with tonnes of passion for cinema.",
+            "popularity": 3.44,
+            "poster_path": "/7FpJoBtEv8jkdlmsIx3xLVOF3rA.jpg",
+            "release_date": "2024-09-24",
+            "title": "BITCH",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/19i6JOA3G5HqPdmgHSNc8ndQDoG.jpg",
+            "genre_ids": [
+                18,
+                12,
+                14
+            ],
+            "id": 1295209,
+            "original_language": "te",
+            "original_title": "A Goa Tripp...",
+            "overview": "two friends are on a quest for a mysterious man by going through an adventurous trippy journey.",
+            "popularity": 2.212,
+            "poster_path": "/4g2qvBS0OzGClV8P7gVICMoijMH.jpg",
+            "release_date": "2024-09-22",
+            "title": "A Goa Tripp...",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                10749,
+                18,
+                35
+            ],
+            "id": 1357437,
+            "original_language": "te",
+            "original_title": "పైలం పిలగా",
+            "overview": "In Kothula Gutta, Shiva dreams beyond his village. When love and fate intertwine, an epic journey of challenges and redemption unfolds.",
+            "popularity": 1.909,
+            "poster_path": "/xkJQQe5xZR0WPA8rqbipetaEafa.jpg",
+            "release_date": "2024-09-20",
+            "title": "Pailam Pilaga",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/nafZqiApFyMGbxoR7me3O0UMOJr.jpg",
+            "genre_ids": [
+                28,
+                80,
+                53
+            ],
+            "id": 1355588,
+            "original_language": "te",
+            "original_title": "Hide N Seek",
+            "overview": "When a chilling pattern emerges, Vaishnavi's relentless pursuit of justice leads her to uncover a sinister pattern connecting the seemingly unrelated murders. Anonymous Warnings As the investigation intensifies, Vaishnavi receives another cryptic file, predicting yet another murder on the horizon. Race Against Time Racing against the clock, Vaishnavi follows leads to the latest crime scene, discovering an unimaginable tragedy that shatters Shiva's world. With every twist and turn, the narrative spirals into a labyrinth of hidden motives, hidden alliances, and buried secrets.",
+            "popularity": 3.048,
+            "poster_path": "/dgFhVALGFLf9PzukxrTywtN53T9.jpg",
+            "release_date": "2024-09-20",
+            "title": "Hide N Seek",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                18,
+                36
+            ],
+            "id": 1233993,
+            "original_language": "te",
+            "original_title": "Untitled Gummadi Narsaiah Biopic",
+            "overview": "A biography of Indian politician Gummadi Narsaiah, who was a leading member of the Communist Party of India New Democracy.",
+            "popularity": 1.632,
+            "poster_path": null,
+            "release_date": "2024-09-18",
+            "title": "Untitled Gummadi Narsaiah Biopic",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                35,
+                80,
+                53
+            ],
+            "id": 1249902,
+            "original_language": "te",
+            "original_title": "మత్తు వదలరా 2",
+            "overview": "Babu and Yesu, former delivery agents, embark on a thrilling mission as special agents, facing extraordinary challenges with humor, surprises, and nonstop excitement.",
+            "popularity": 0.001,
+            "poster_path": "/istPXyZrPtB0o4WGxBJpjc8lCqV.jpg",
+            "release_date": "2024-09-13",
+            "title": "Mathu Vadalara 2",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/hKrR8u0wpi1zcxzWYnxj1LPXa8K.jpg",
+            "genre_ids": [
+                53
+            ],
+            "id": 819356,
+            "original_language": "te",
+            "original_title": "Black Rose",
+            "overview": "",
+            "popularity": 1.858,
+            "poster_path": "/ii7nSUU8wjac2WO72BrZhtKwJRJ.jpg",
+            "release_date": "2024-09-13",
+            "title": "Black Rose",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                27
+            ],
+            "id": 1352962,
+            "original_language": "te",
+            "original_title": "కళింగ",
+            "overview": "A village is terrorized by a demonic entity and a deadly ancient curse.",
+            "popularity": 2.917,
+            "poster_path": "/1sGVfpFNK4fCfnZ1PWmswgH4zCr.jpg",
+            "release_date": "2024-09-12",
+            "title": "Kalinga",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/yvGUFNVl2Ynvnk215MU68TqYeeE.jpg",
+            "genre_ids": [
+                35,
+                53
+            ],
+            "id": 1339992,
+            "original_language": "te",
+            "original_title": "ఉరుకు పటేలా",
+            "overview": "Patela, a midwit  finds himself entrapped in a maze of love and deceit from a highly educated Akshara whom he loves but  she is a phantom with an ulterior agenda trying to have him killed.",
+            "popularity": 1.225,
+            "poster_path": "/7o4ePBl7QfWJ5M19Zuvz4RuJFef.jpg",
+            "release_date": "2024-09-07",
+            "title": "Uruku Patela",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/hQtDgmipKwos41K5vD2lIiSAF0q.jpg",
+            "genre_ids": [
+                35,
+                10749
+            ],
+            "id": 1321944,
+            "original_language": "te",
+            "original_title": "భలే ఉన్నాడే",
+            "overview": "",
+            "popularity": 2.035,
+            "poster_path": "/pNQFUnBr3tobPoZKJyINEHj3tTe.jpg",
+            "release_date": "2024-09-07",
+            "title": "Bhale Unnade",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/hgWvNHvezo6vVw4G98VLuvaVhzL.jpg",
+            "genre_ids": [],
+            "id": 1353981,
+            "original_language": "te",
+            "original_title": "35 - చిన్న కథ కాదు",
+            "overview": "Revolves around a young mother facing challenges when her son fails to secure passing marks, igniting events that test the family's resilience and unity.",
+            "popularity": 0.063,
+            "poster_path": "/pnXf9i8VxdfRpHJMevsJyHyD5Zf.jpg",
+            "release_date": "2024-09-06",
+            "title": "35 - Chinna Katha Kaadu",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/p27Ito1toxEwxzZDvrEC8xmmd2K.jpg",
+            "genre_ids": [
+                18,
+                10751
+            ],
+            "id": 1329287,
+            "original_language": "te",
+            "original_title": "35 - చిన్న కథ కాదు",
+            "overview": "Revolves around a young mother facing challenges when her son fails to secure passing marks, igniting events that test the family's resilience and unity.",
+            "popularity": 3.262,
+            "poster_path": "/8Wssy3WJYeF3QFu6E5c1iW74YjQ.jpg",
+            "release_date": "2024-09-06",
+            "title": "35 - Chinna Katha Kaadu",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [],
+            "id": 1277726,
+            "original_language": "te",
+            "original_title": "Sundarakanda",
+            "overview": "This film is going to be a fun filled rom-rom packed with many colourful nuances.",
+            "popularity": 2.84,
+            "poster_path": "/w61zzP5x5Q0AvzVAbTEx40SxhJH.jpg",
+            "release_date": "2024-09-06",
+            "title": "Sundarakanda",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/sHfYsQ5iV3uKmxgNIlvoBh7NN1v.jpg",
+            "genre_ids": [],
+            "id": 1340378,
+            "original_language": "te",
+            "original_title": "Sarangadhariya",
+            "overview": "Krishna's family deals with sons' unemployment, daughter's marriage prospects. A hidden secret emerges, challenging their unity. They navigate this crisis while reflecting societal issues.",
+            "popularity": 0.965,
+            "poster_path": "/8KWEOKyewUzA2jCUKirF9XqUO8p.jpg",
+            "release_date": "2024-08-31",
+            "title": "Sarangadhariya",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/uCCvpXm5T0RRdvWvmE66NX3la9I.jpg",
+            "genre_ids": [
+                28
+            ],
+            "id": 1306961,
+            "original_language": "te",
+            "original_title": "Aho Vikramaarka!",
+            "overview": "",
+            "popularity": 2.281,
+            "poster_path": "/8BO1QGOsRGdYJ2ASzKbpXyUd2ua.jpg",
+            "release_date": "2024-08-30",
+            "title": "Aho Vikramaarka!",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                28,
+                18
+            ],
+            "id": 1340919,
+            "original_language": "te",
+            "original_title": "Surya's Saturday",
+            "overview": "Helmed by Vivek Athreya, the movie stars Nani and tells the story of a man who gets supernatural powers on and only on Saturdays.",
+            "popularity": 1.098,
+            "poster_path": "/lA5I65TldLYMqUmnxcwjrfwQQW6.jpg",
+            "release_date": "2024-08-29",
+            "title": "Surya's Saturday",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/yxQACC8pPE5RpRU8nFVU830LL6u.jpg",
+            "genre_ids": [
+                28,
+                53
+            ],
+            "id": 1194915,
+            "original_language": "te",
+            "original_title": "స‌రిపోదా శ‌నివారం",
+            "overview": "Set in Sokulapalem, bound by a promise to his mother, Surya, an LIC agent leads a normal life on six days, maintains a careful ledger of everyone made him angry,unleashing his anger only on Saturdays, solely for justifiable reasons. A tragic incident pits him on a collision course with the ruthless and borderline-manic cop Daya.",
+            "popularity": 30.9,
+            "poster_path": "/r0eIkQOpY83GYXwBtMHOjvm0zuC.jpg",
+            "release_date": "2024-08-29",
+            "title": "Saripodhaa Sanivaaram",
+            "video": false,
+            "vote_average": 7.1,
+            "vote_count": 7
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/5GjLL0RCzeB3ilHrBrJWfv6fiwa.jpg",
+            "genre_ids": [],
+            "id": 1337831,
+            "original_language": "te",
+            "original_title": "Parakramam",
+            "overview": "Revolves around the life of Lovaraju, a theatre artist and a gully cricketer in a village named Lampakalova.",
+            "popularity": 0.851,
+            "poster_path": "/siUShE3A0IFvjIBQLkttqVaNzu9.jpg",
+            "release_date": "2024-08-23",
+            "title": "Parakramam",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        }
+    ],
+    "total_pages": 8,
+    "total_results": 152
+}

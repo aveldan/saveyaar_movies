@@ -1,0 +1,421 @@
+{
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/yppwYxAtvlDIu5FD6CtScyPP5Fa.jpg",
+        "genre_ids": [
+          80,
+          18
+        ],
+        "id": 228554,
+        "origin_country": [
+          "IN"
+        ],
+        "original_language": "te",
+        "original_name": "సైతాన్",
+        "overview": "After attempting an attack on the Home Minister, Baali is on the run. What happens when he chooses the path of violence?...",
+        "popularity": 10.9,
+        "poster_path": "/8Ucu1uqMGf8yV9J8bGq9f53EIyX.jpg",
+        "first_air_date": "2023-06-15",
+        "name": "Shaitan",
+        "vote_average": 6.7,
+        "vote_count": 3
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/qB7yhnWBQ2oiaG2PZ3N3zFFm5L3.jpg",
+        "genre_ids": [
+          9648,
+          80,
+          18
+        ],
+        "id": 200946,
+        "origin_country": [
+          "IN"
+        ],
+        "original_language": "te",
+        "original_name": "దూత",
+        "overview": "Journalist Sagar's life turns thrilling as he unravels dark secrets behind newspaper clippings predicting tragedies. He becomes a murder suspect, racing against time to clear his name and solve the enigma and faces dangerous twists. Suspense builds in this roller-coaster ride.",
+        "popularity": 10.409,
+        "poster_path": "/jMegWqCj8z58na8RG8ytlPJ7gGm.jpg",
+        "first_air_date": "2023-11-30",
+        "name": "Dhootha",
+        "vote_average": 7,
+        "vote_count": 13
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/uGkgjbgKHuw4xuYiwGCthr7ECbK.jpg",
+        "genre_ids": [
+          35,
+          18
+        ],
+        "id": 235819,
+        "origin_country": [
+          "IN"
+        ],
+        "original_language": "te",
+        "original_name": "కుమారి శ్రీమతి",
+        "overview": "Srimathi is a 30 year old unmarried woman, with a dead end job, a dysfunctional family and a goal to win back her ancestral house. For that, she needs to raise a lot of money in a short period of time. Seeing a business oppurtunity, she decides to start a bar in her village. This is the journey of Srimathi, battling various societal and moral obstacles along the way.",
+        "popularity": 9.958,
+        "poster_path": "/2008kVjRqNpzeY9dsM9bEuoZ0o5.jpg",
+        "first_air_date": "2023-09-28",
+        "name": "Kumari Srimathi",
+        "vote_average": 7,
+        "vote_count": 5
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/34wzog8X0Rt1i84XDonaFcPQC8T.jpg",
+        "genre_ids": [
+          35,
+          18
+        ],
+        "id": 224744,
+        "origin_country": [
+          "IN"
+        ],
+        "original_language": "te",
+        "original_name": "Save the Tigers",
+        "overview": "Revolves around three frustrated husbands who meet by chance and how their rants over their marital problems set off a series of crazy events.",
+        "popularity": 9.322,
+        "poster_path": "/w7l7PmDgJXaIYEt1KLqEFzHLb6m.jpg",
+        "first_air_date": "2023-04-27",
+        "name": "Save the Tigers",
+        "vote_average": 6.7,
+        "vote_count": 3
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/yW8QhXzNoJt6r0xnJYD8FJEWbqJ.jpg",
+        "genre_ids": [
+          18,
+          80
+        ],
+        "id": 241347,
+        "origin_country": [
+          "IN"
+        ],
+        "original_language": "te",
+        "original_name": "వ్యూహం",
+        "overview": "A newly appointed police officer is assigned to a hit and run case, where a pregnant couple lost their child. What seems like a simple open and shut case, turns out to be a complicated web involving several seemingly unconnected people. To solve the case, the officer has to hunt down a serial killer, a trained Naxal, a suspended cop, and a terrorist organization, while facing his own painful past.",
+        "popularity": 9.274,
+        "poster_path": "/nwDqwRlBVe8hQAoLgPKQ4SfuUrC.jpg",
+        "first_air_date": "2023-12-14",
+        "name": "Vyooham",
+        "vote_average": 7.5,
+        "vote_count": 2
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/1cVXkMZ2rZ1TCL5LR49MnXgi0hO.jpg",
+        "genre_ids": [
+          9648,
+          10759
+        ],
+        "id": 236438,
+        "origin_country": [
+          "IN"
+        ],
+        "original_language": "te",
+        "original_name": "Mansion 24",
+        "overview": "When Kalidas, one of the most revered archaeologists in the country, accused of stealing precious artefacts and fleeing the country, his daughter Amrutha an investigative journalist, enters an abandoned mansion with a frightening past, to trace his whereabouts and restore his legacy.",
+        "popularity": 9.254,
+        "poster_path": "/fkrfqPrANUEoRiD7FUsLsxhD5VC.jpg",
+        "first_air_date": "2023-10-17",
+        "name": "Mansion 24",
+        "vote_average": 5.25,
+        "vote_count": 4
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/j2vct2aWAhC7ZgsdAGeAYftmoHY.jpg",
+        "genre_ids": [
+          80,
+          9648
+        ],
+        "id": 230930,
+        "origin_country": [
+          "IN"
+        ],
+        "original_language": "te",
+        "original_name": "దయా",
+        "overview": "A reserved freezer van driver gets pushed into a chaotic situation wants to escape to safety, an upright journalist chases the truth, a husband is on the hunt for his wife, a cop wants to make progress in his investigation, a woman is in search of her identity and a culprit is after power.",
+        "popularity": 6.843,
+        "poster_path": "/3MbRfa8EyibVYriL6Wc1ck9eDwM.jpg",
+        "first_air_date": "2023-08-04",
+        "name": "Dayaa",
+        "vote_average": 4.7,
+        "vote_count": 3
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/6crtAM809tLs4h7etNaljZ44ZxC.jpg",
+        "genre_ids": [
+          18,
+          9648
+        ],
+        "id": 235086,
+        "origin_country": [
+          "IN"
+        ],
+        "original_language": "te",
+        "original_name": "అతిథి",
+        "overview": "Unexpected guests enter a loner's house and life, unleashing a series of horrific events. Everyone becomes a suspect and a victim.",
+        "popularity": 6.558,
+        "poster_path": "/sHeYZwXgvfSL5mHxkgPnD77uLRK.jpg",
+        "first_air_date": "2023-09-19",
+        "name": "Athidhi",
+        "vote_average": 5,
+        "vote_count": 3
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/kXGQ6bTuXB6ugaFyCK9rZPAeYID.jpg",
+        "genre_ids": [
+          18
+        ],
+        "id": 221278,
+        "origin_country": [
+          "IN"
+        ],
+        "original_language": "te",
+        "original_name": "Newsense",
+        "overview": "Shiva and his journalist friends make money unethically in Madanapally by publishing false news stories and colluding with local politicians who control the town. Will they choose to stand up for the people of Madanapally, or will their greed and corruption lead them down a dark path?",
+        "popularity": 5.714,
+        "poster_path": "/yJF5G132ZFtV2I9rd40pZIyO3IM.jpg",
+        "first_air_date": "2023-05-12",
+        "name": "Newsense",
+        "vote_average": 5.5,
+        "vote_count": 2
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/vkFrTCSZ2eW5z3KmUnn4ITLdIJA.jpg",
+        "genre_ids": [
+          18,
+          9648
+        ],
+        "id": 240575,
+        "origin_country": [
+          "IN"
+        ],
+        "original_language": "te",
+        "original_name": "వధువు",
+        "overview": "A young bride's life is in peril when she marries into a mysterious household. Despite her dark past, she is determined to uncover the secrets of her new family.",
+        "popularity": 5.699,
+        "poster_path": "/msXTAJ4ZJGeNqfKkjmz6hebKnZU.jpg",
+        "first_air_date": "2023-12-08",
+        "name": "Vadhuvu",
+        "vote_average": 5.5,
+        "vote_count": 2
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/zj3l8l5fKNjvUCgcJjMpR0K5BPy.jpg",
+        "genre_ids": [
+          80,
+          9648
+        ],
+        "id": 220784,
+        "origin_country": [
+          "IN"
+        ],
+        "original_language": "te",
+        "original_name": "పులి మేక",
+        "overview": "A serial killer is targeting police officers in Hyderabad. A female cop in charge of the Special Investigation Team and a forensic expert race against time to find the culprit.",
+        "popularity": 5.581,
+        "poster_path": "/9JWBdtWfx6S7vmCq77mDvd173ul.jpg",
+        "first_air_date": "2023-02-23",
+        "name": "Puli Meka",
+        "vote_average": 7,
+        "vote_count": 1
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/3iCtKpCVWItCudZ53dMlyc7DUBQ.jpg",
+        "genre_ids": [
+          35,
+          80
+        ],
+        "id": 209334,
+        "origin_country": [
+          "IN"
+        ],
+        "original_language": "te",
+        "original_name": "మాయాబజార్ - For Sale",
+        "overview": "High expectations of the buyers turn upside down when \"Maya Bazaar\", a gated community’s brand ambassador – a celebrity actor Abhijeet - falls dead from the terrace of the clubhouse on the inauguration day. On the same day, the residents also come to know that the entire property is illegal and their hope for a peaceful life comes to a standstill when the government declares the construction illegal.",
+        "popularity": 5.484,
+        "poster_path": "/5LAHRuuVNMatQ4rvMy4gxd4JAQn.jpg",
+        "first_air_date": "2023-07-14",
+        "name": "Maya Bazaar - For Sale",
+        "vote_average": 0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/E1CucuXclGtsXQnL8TwqHHphwR.jpg",
+        "genre_ids": [
+          80,
+          18,
+          9648
+        ],
+        "id": 225420,
+        "origin_country": [
+          "IN"
+        ],
+        "original_language": "te",
+        "original_name": "వ్యవస్థ",
+        "overview": "Avinash Chakraborty is a ruthless lawyer who leaves no stone unturned to win a case. His authority is challenged by Vamsi Krishna, his employer's son and a newly graduated lawyer. What will he do next?",
+        "popularity": 4.987,
+        "poster_path": "/5qnQG5pUbvfO62OecbnnDTDLSfv.jpg",
+        "first_air_date": "2023-04-28",
+        "name": "Vyavastha",
+        "vote_average": 8,
+        "vote_count": 1
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/k5viQLj01P5ZAzzNNoZNmanDyUe.jpg",
+        "genre_ids": [
+          18,
+          35
+        ],
+        "id": 218025,
+        "origin_country": [
+          "IN"
+        ],
+        "original_language": "te",
+        "original_name": "Anger Tales",
+        "overview": "An anthology bringing alive the various hues of anger, telling the stories of four ordinary people belonging to different socio-economic backgrounds.",
+        "popularity": 4.968,
+        "poster_path": "/5j18VSwKWQMMP2dkmVbbFmcSxxC.jpg",
+        "first_air_date": "2023-03-09",
+        "name": "Anger Tales",
+        "vote_average": 9,
+        "vote_count": 1
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/soAUCwpIhGJ7OrKPrBSB8vBTGqs.jpg",
+        "genre_ids": [
+          18
+        ],
+        "id": 230505,
+        "origin_country": [
+          "IN"
+        ],
+        "original_language": "te",
+        "original_name": "Hostel Days",
+        "overview": "Set in an engineering college hostel, this series follows the life of Six engineering students and their struggles with friendship, identity, love, life and academics.",
+        "popularity": 4.817,
+        "poster_path": "/n7915gL2BiXeNm3Ad5KlgeiSRP0.jpg",
+        "first_air_date": "2023-07-12",
+        "name": "Hostel Days",
+        "vote_average": 0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/nAGWrrdTei2E9MdmWSZM4jnQovg.jpg",
+        "genre_ids": [
+          80
+        ],
+        "id": 218637,
+        "origin_country": [
+          "IN"
+        ],
+        "original_language": "te",
+        "original_name": "ATM",
+        "overview": "Four street-smart youngsters from the slums of Hyderabad earn their living by carrying out petty crimes. What happens when one such scam backfires and compels them to loot a bank's cash van?",
+        "popularity": 4.789,
+        "poster_path": "/WFqXIK0m8FwskyGqPtYn4gjKSK.jpg",
+        "first_air_date": "2023-01-20",
+        "name": "ATM",
+        "vote_average": 0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/rQoj1aWa9xD2Gtjb1uUmkox0bk.jpg",
+        "genre_ids": [
+          35
+        ],
+        "id": 226542,
+        "origin_country": [
+          "IN"
+        ],
+        "original_language": "te",
+        "original_name": "Dead Pixels",
+        "overview": "The journey of three young friends whose lives revolve around an online video game, with the ultimate goal of defeating a virtual villain.",
+        "popularity": 4.689,
+        "poster_path": "/4f2HfXSzZT2XdSrVMUTj4n946Si.jpg",
+        "first_air_date": "2023-05-19",
+        "name": "Dead Pixels (IN)",
+        "vote_average": 7,
+        "vote_count": 1
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/zM7Gmnj0qAyRcfdrajgDEgCrXzD.jpg",
+        "genre_ids": [
+          35,
+          18
+        ],
+        "id": 221922,
+        "origin_country": [
+          "IN"
+        ],
+        "original_language": "te",
+        "original_name": "Bad Trip",
+        "overview": "A shared cab ride presents a group of people the opportunity to get rich quickly. What seems like an easy job turns into a web of nightmares for the gang.",
+        "popularity": 3.407,
+        "poster_path": "/tQFKrmnvO9jqdUFsbeGVdTyBLdW.jpg",
+        "first_air_date": "2023-03-10",
+        "name": "Bad Trip",
+        "vote_average": 7,
+        "vote_count": 1
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 236892,
+        "origin_country": [
+          "IN"
+        ],
+        "original_language": "te",
+        "original_name": "నువ్వు నేను ప్రేమ",
+        "overview": "When destiny brings Padmavathi, a lively girl and Vikramaditya, a haughty businessman to cross paths, they realise that they cannot live without each other.",
+        "popularity": 1.625,
+        "poster_path": null,
+        "first_air_date": "2023-02-10",
+        "name": "Nuvvu Nenu Prema",
+        "vote_average": 0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/W49ZY3JcammLPyexAD8gchJe4T.jpg",
+        "genre_ids": [
+          10764
+        ],
+        "id": 241034,
+        "origin_country": [
+          "IN"
+        ],
+        "original_language": "te",
+        "original_name": "USTAAD",
+        "overview": "Ustaad is an exciting game show hosted by the rocking star Manchu Manoj. It's all about having fun and raising funds for the fans of each celebrity. Get ready for some big entertainment because Manoj is going to rock the show!",
+        "popularity": 1.504,
+        "poster_path": "/z9jWnDXLqcwtt6JXFrMljJuTVpz.jpg",
+        "first_air_date": "2023-12-15",
+        "name": "USTAAD",
+        "vote_average": 0,
+        "vote_count": 0
+      }
+    ],
+    "total_pages": 2,
+    "total_results": 26
+  }

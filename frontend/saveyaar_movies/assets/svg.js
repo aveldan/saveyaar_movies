@@ -21,6 +21,7 @@ import { ShareIconPurple } from "./icons/ShareIconPurple";
 import { HeartIconPurple } from "./icons/HeartIconPurple";
 import { BellIconPurple } from "./icons/BellIconPurple";
 import { DotIconPurple } from "./icons/DotIconPurple";
+import { LineVerticalPurple } from "./icons/LineVerticalPurple";
 
 export {
     HomeIcon,
@@ -45,5 +46,6 @@ export {
     ShareIconPurple,
     HeartIconPurple,
     BellIconPurple,
-    DotIconPurple
+    DotIconPurple,
+    LineVerticalPurple
 };
