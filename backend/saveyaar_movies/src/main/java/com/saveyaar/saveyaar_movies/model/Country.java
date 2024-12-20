@@ -8,15 +8,15 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data @AllArgsConstructor
-@Entity @Table(name = "languages")
-public class Language {
-
+@Entity @Table(name = "countries")
+public class Country {
+    
     @Id
-    private String language_iso;
+    private String country_iso;
 
     @Column
     private String name;
-
+    
     @Column
     private String native_name;
 }

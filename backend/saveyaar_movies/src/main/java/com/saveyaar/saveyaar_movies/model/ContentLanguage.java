@@ -7,10 +7,9 @@ import lombok.NonNull;
 
 @Data @AllArgsConstructor
 @Embeddable
-public class Episode {
+public class ContentLanguage {
 
-    @NonNull private String episode_name;
-    private String overview;
-    private int episode_number;
-    private String poster_path;
+    @NonNull private String language_iso;
+    private String local_title;
+    private boolean is_original_language;
 }

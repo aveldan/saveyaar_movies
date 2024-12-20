@@ -4,14 +4,10 @@ import java.time.LocalDate;
 
 import jakarta.persistence.Embeddable;
 import lombok.AllArgsConstructor;
-import lombok.Getter;
+import lombok.Data;
 import lombok.NonNull;
-import lombok.RequiredArgsConstructor;
-import lombok.Setter;
-import lombok.ToString;
 
-@Getter @Setter @ToString
-@RequiredArgsConstructor @AllArgsConstructor
+@Data @AllArgsConstructor
 @Embeddable
 public class ReleaseDate {
 

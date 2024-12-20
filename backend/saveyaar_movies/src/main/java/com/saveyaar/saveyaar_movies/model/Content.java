@@ -1,25 +1,33 @@
 package com.saveyaar.saveyaar_movies.model;
 
 import java.util.List;
+import java.util.Set;
 
 import jakarta.persistence.CascadeType;
+import jakarta.persistence.CollectionTable;
 import jakarta.persistence.Column;
 import jakarta.persistence.ElementCollection;
+import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.Inheritance;
+import jakarta.persistence.InheritanceType;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.JoinTable;
 import jakarta.persistence.ManyToMany;
-import jakarta.persistence.MappedSuperclass;
 import jakarta.persistence.OneToMany;
+import jakarta.persistence.Table;
 import lombok.Data;
 
-@MappedSuperclass
 @Data
+@Entity @Table(name = "Content")
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 public class Content {
 
     @Id @GeneratedValue(strategy = GenerationType.AUTO)
-    private int content_id;
+    private int id;
 
     @Column
     private String title;
@@ -27,21 +35,50 @@ public class Content {
     @Column
     private String overview;
 
-    @OneToMany(mappedBy = "content", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    private List<OttRecord> ott_availability;
-
     @Column
     private String poster_path;
 
-    @ManyToMany
-    private List<Genre> genres;
+    @Column
+    private double rating;
+
+    @OneToMany(mappedBy = "content", cascade = CascadeType.ALL, fetch = FetchType.LAZY, orphanRemoval = true)
+    private List<OttRecord> ott_availability;
+
+    @ManyToMany(cascade = {CascadeType.PERSIST, CascadeType.MERGE})
+    @JoinTable(name = "content_genre",
+        joinColumns = @JoinColumn(name = "content_id"),
+        inverseJoinColumns = @JoinColumn(name = "genre_id")
+    )
+    private Set<Genre> genres;
 
     @ElementCollection
-    private List<Language> languages;
+    @CollectionTable(name = "content_languages", joinColumns = @JoinColumn(name = "content_id"))
+    private Set<ContentLanguage> languages;
 
     @ElementCollection
-    private List<ReleaseDate> release_dates;
+    @CollectionTable(name = "release_dates", joinColumns = @JoinColumn(name = "content_id"))
+    private Set<ReleaseDate> release_dates;
 
-    @ElementCollection
+    @OneToMany(mappedBy = "content", cascade = CascadeType.ALL, fetch = FetchType.LAZY, orphanRemoval = true)
     private List<CastNCrew> cast_and_crew;
+
+    public void addOttRecord(OttRecord record){
+        ott_availability.add(record);
+        record.setContent(this);
+    }
+
+    public void removeOttRecord(OttRecord record){
+        ott_availability.remove(record);
+        record.setContent(null);
+    }
+
+    public void addCastNCrew(CastNCrew record){
+        cast_and_crew.add(record);
+        record.setContent(this);
+    }
+
+    public void removeCastNCrew(CastNCrew record){
+        cast_and_crew.remove(record);
+        record.setContent(null);
+    }
 }
