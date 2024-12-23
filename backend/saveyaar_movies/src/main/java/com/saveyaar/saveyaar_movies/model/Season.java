@@ -1,16 +1,20 @@
 package com.saveyaar.saveyaar_movies.model;
 
 import java.util.List;
+import java.util.Set;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.CollectionTable;
 import jakarta.persistence.Column;
 import jakarta.persistence.ElementCollection;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -25,20 +29,26 @@ public class Season {
     @Column
     private String season_name;
 
-    @Column
+    @Column(nullable = false)
     private int season_number;
 
     @Column
     private String overview;
 
     @Column
-    private String backdrop_path;
+    private String poster_path;
 
     @ManyToOne
-    @JoinColumn(name = "tv_id")
-    private Tv tv_show;
+    @JoinColumn(name = "series_id")
+    private Series series;
     
-    @ElementCollection
-    @CollectionTable(name = "Episodes", joinColumns = @JoinColumn(name = "season_id"))
+    @OneToMany(mappedBy = "season", cascade = CascadeType.ALL, fetch = FetchType.LAZY, orphanRemoval = true)
     private List<Episode> episodes;
+
+    @ElementCollection
+    @CollectionTable(name = "season_languages", joinColumns = @JoinColumn(name = "season_id"))
+    private Set<ContentLanguage> languages;
+
+    @OneToMany(mappedBy = "season", cascade = CascadeType.ALL, fetch = FetchType.LAZY, orphanRemoval = true)
+    private List<OttRecord> ott_availability;
 }

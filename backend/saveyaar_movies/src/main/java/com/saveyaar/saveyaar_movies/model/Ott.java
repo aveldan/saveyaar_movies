@@ -8,16 +8,20 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Entity @Table(name = "OTTs")
-@Data @AllArgsConstructor
+@Data @AllArgsConstructor @NoArgsConstructor
 public class Ott {
     @Id @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
 
     @Column
     private String home_page;
-
+    
+    @Column
+    private String name;
+    
     @Column
     private String logo_path;
 }

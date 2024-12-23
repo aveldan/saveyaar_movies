@@ -22,14 +22,18 @@ public class OttRecord {
     private int id;
     
     @ManyToOne
-    @JoinColumn(name = "content_id")
-    private Content content;
+    @JoinColumn(name = "movie_id")
+    private Movie movie;
     
+    @ManyToOne
+    @JoinColumn(name = "season_id")
+    private Season season;
+
     @Column
     private String country_iso;
     
     @ManyToOne
-    @JoinColumn(name = "ott_id")
+    @JoinColumn(name = "ott_id", nullable = false)
     @NonNull private Ott ott;    
     
     @Column
