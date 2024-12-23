@@ -1,6 +1,5 @@
 package com.saveyaar.saveyaar_movies.service.impl;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -28,7 +27,7 @@ import com.saveyaar.saveyaar_movies.service.Ingest;
 
 import jakarta.transaction.Transactional;
 
-@Service
+@Service("TMDBIngest")
 public class TMDBIngest implements Ingest{
 
     @Autowired
@@ -107,14 +106,16 @@ public class TMDBIngest implements Ingest{
             .distinct()
             .collect(Collectors.toList());
         
-        List<Country> countries_present = countryRepository.findAllByCountry(
+        List<String> countries_present = countryRepository.findAllByCountry(
                 countries.stream()
                 .map(Country::getCountry_iso)
                 .collect(Collectors.toList())
-            );
+            ).stream()
+             .map(Country::getCountry_iso)
+             .collect(Collectors.toList());
         
         List<Country> countries_to_add = countries.stream()
-                                         .filter(country -> !countries_present.contains(country))
+                                         .filter(country -> !countries_present.contains(country.getCountry_iso()))
                                          .collect(Collectors.toList());
 
         countryRepository.saveAll(countries_to_add);
@@ -131,12 +132,14 @@ public class TMDBIngest implements Ingest{
                                     .distinct()
                                     .collect(Collectors.toList());
  
-        List<Language> lang_present = languageRepository.findAllByLanguage(
+        List<String> lang_present = languageRepository.findAllByLanguage(
                 languages.stream().map(Language::getLanguage_iso).collect(Collectors.toList())   
-            );
+            ).stream()
+             .map(Language::getLanguage_iso)
+             .collect(Collectors.toList());
         
         List<Language> lang_to_add = languages.stream()
-                                     .filter(lang -> !lang_present.contains(lang))
+                                     .filter(lang -> !lang_present.contains(lang.getLanguage_iso()))
                                      .collect(Collectors.toList());
         
         languageRepository.saveAll(lang_to_add);
@@ -154,14 +157,17 @@ public class TMDBIngest implements Ingest{
                          .distinct()
                          .collect(Collectors.toList());
         
-        List<Ott> otts_present = ottRepository.findAllByOtt(
+        List<String> otts_present = ottRepository.findAllByOtt(
                 otts.stream()
                 .map(Ott::getName)
                 .collect(Collectors.toList())   
-            );
+            ).stream()
+             .map(Ott::getName)
+             .collect(Collectors.toList());
+
 
         List<Ott> otts_to_add = otts.stream()
-                                .filter(ott -> !otts_present.contains(ott))
+                                .filter(ott -> !otts_present.contains(ott.getName()))
                                 .collect(Collectors.toList());
 
         ottRepository.saveAll(otts_to_add);

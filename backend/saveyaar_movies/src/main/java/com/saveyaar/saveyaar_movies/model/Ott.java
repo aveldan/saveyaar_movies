@@ -19,7 +19,7 @@ public class Ott {
     @Column
     private String home_page;
     
-    @Column
+    @Column(nullable = false, unique = true)
     private String name;
     
     @Column

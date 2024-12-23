@@ -3,6 +3,7 @@ package com.saveyaar.saveyaar_movies.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -21,6 +22,7 @@ import com.saveyaar.saveyaar_movies.service.Ingest;
 public class TMDBIngestController {
 
     @Autowired
+    @Qualifier("TMDBIngest")
     private Ingest ingestService;
 
     @PostMapping("/genre")

@@ -15,7 +15,7 @@ public class Language {
     @Id
     private String language_iso;
 
-    @Column
+    @Column(nullable = false, unique = true)
     private String name;
 
     @Column
