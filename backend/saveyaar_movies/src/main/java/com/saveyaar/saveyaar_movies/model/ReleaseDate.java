@@ -6,10 +6,11 @@ import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.NonNull;
 
 @Data @AllArgsConstructor
-@Embeddable
+@Embeddable @NoArgsConstructor
 public class ReleaseDate {
     @Column(nullable = false)
     @NonNull private String country_iso;

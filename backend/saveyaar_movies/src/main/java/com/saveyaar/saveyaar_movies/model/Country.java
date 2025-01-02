@@ -15,7 +15,7 @@ public class Country {
     @Id
     private String country_iso;
 
-    @Column(nullable = false, unique = true)
+    @Column(nullable = false)
     private String name;
     
     @Column

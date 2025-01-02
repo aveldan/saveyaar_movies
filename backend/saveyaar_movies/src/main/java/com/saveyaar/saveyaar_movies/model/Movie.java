@@ -1,7 +1,10 @@
 package com.saveyaar.saveyaar_movies.model;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
+
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.CollectionTable;
@@ -14,6 +17,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.JoinTable;
+import jakarta.persistence.Lob;
 import jakarta.persistence.ManyToMany;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
@@ -32,7 +36,8 @@ public class Movie{
     @Column
     private String original_title;
     
-    @Column
+    @Column(columnDefinition = "TEXT")
+    @Lob
     private String overview;
     
     @Column
@@ -48,7 +53,13 @@ public class Movie{
     private float budget;
 
     @Column
+    private float revenue;
+
+    @Column
     private String external_id;
+
+    @Column
+    private int external_id_2;
     
     @Column
     private double popularity;
@@ -72,27 +83,66 @@ public class Movie{
     private Set<ReleaseDate> release_dates;
 
     @OneToMany(mappedBy = "movie", cascade = CascadeType.ALL, fetch = FetchType.LAZY, orphanRemoval = true)
+    @JsonManagedReference
     private List<Credit> credits;
 
     @OneToMany(mappedBy = "movie", cascade = CascadeType.ALL, fetch = FetchType.LAZY, orphanRemoval = true)
+    @JsonManagedReference
     private List<OttRecord> ott_availability;
 
     public void addOttRecord(OttRecord record){
+        if(this.ott_availability == null)
+            this.ott_availability = new ArrayList<>();
+        
         ott_availability.add(record);
         record.setMovie(this);
     }
 
+    public void setOttRecords(List<OttRecord> records) {
+        if(this.ott_availability == null)
+            this.ott_availability = new ArrayList<>();
+
+        this.ott_availability.clear();
+
+        for(OttRecord record: records){
+            this.ott_availability.add(record);
+            record.setMovie(this);
+        }
+    }
+
     public void removeOttRecord(OttRecord record){
+        if(this.ott_availability == null)
+            return;
+        
         ott_availability.remove(record);
         record.setMovie(null);
     }
 
     public void addCredit(Credit record){
+        if(this.credits == null)
+            this.credits = new ArrayList<>();
+
         credits.add(record);
         record.setMovie(this);
     }
 
+    public void setCredits(List<Credit> credits) {
+        
+        if(this.credits == null)
+            this.credits = new ArrayList<>();
+
+        this.credits.clear();
+
+        for(Credit credit: credits) {
+            this.credits.add(credit);
+            credit.setMovie(this);
+        }
+    }
+
     public void removeCredit(Credit record){
+        if(this.credits == null)
+            return;
+
         credits.remove(record);
         record.setMovie(null);
     }
