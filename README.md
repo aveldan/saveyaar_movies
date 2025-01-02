@@ -7,9 +7,17 @@ saveyaar_movie is a feature small feature in saveyaar, this is the backend for i
 ### Front End
 
 * React Native
+* Expo
 
 ### Backend and Databse
+* SpringBoot
+* Spring Data JPA
+* Hibernate
+* log4j
+* postgreSQL
 
+### pervious plan was to use FastAPI and Document DB
+  
 * FastAPI - https://fastapi.tiangolo.com/ (This is the best light weight rn, it is also asynchronous)
           - https://docs.pydantic.dev/latest/
 * MongoDB
