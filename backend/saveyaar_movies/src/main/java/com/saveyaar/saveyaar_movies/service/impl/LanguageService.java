@@ -1,0 +1,22 @@
+package com.saveyaar.saveyaar_movies.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.saveyaar.saveyaar_movies.model.Language;
+import com.saveyaar.saveyaar_movies.repository.LanguageRepository;
+
+@Service
+public class LanguageService {
+
+    @Autowired
+    private LanguageRepository languageRepository;
+
+    public String getLanguage(String iso) {
+        Language lang = languageRepository.findByISO(iso);
+        if(lang == null)
+            return null;
+        
+        return lang.getName();  
+    }
+}

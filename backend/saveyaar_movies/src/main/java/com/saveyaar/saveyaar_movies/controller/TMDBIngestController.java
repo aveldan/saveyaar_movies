@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.saveyaar.saveyaar_movies.domain.TMDBDiscover;
-import com.saveyaar.saveyaar_movies.domain.TMDBMovie;
 import com.saveyaar.saveyaar_movies.domain.TMDBResponse;
 import com.saveyaar.saveyaar_movies.model.Country;
 import com.saveyaar.saveyaar_movies.model.Genre;

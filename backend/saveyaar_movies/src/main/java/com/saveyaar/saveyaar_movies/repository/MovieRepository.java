@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 import com.saveyaar.saveyaar_movies.model.Movie;
 
 @Repository
-public interface MovieRepository extends JpaRepository<Movie, Long>{
+public interface MovieRepository extends JpaRepository<Movie, Integer>{
     
     @Query("SELECT m FROM Movie m WHERE m.external_id = :external_id")
     Movie findByExternalId(@Param("external_id") String external_id);

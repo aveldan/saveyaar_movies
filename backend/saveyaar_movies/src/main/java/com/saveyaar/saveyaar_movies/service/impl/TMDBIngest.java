@@ -12,6 +12,8 @@ import java.util.stream.Stream;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -315,8 +317,12 @@ public class TMDBIngest implements Ingest{
 
         List<OttRecord> records = mapToOttRecords(tmdb_mv.getWatch_providers());
         mv.setOttRecords(records);
-
-        // rating
+        
+        String rating = client.ratingJsoupDoc(mv.getExternal_id());
+        
+        if( rating != null) {
+            mv.setRating(Float.parseFloat(rating));
+        }
     }
 
     @Override
@@ -469,7 +475,7 @@ public class TMDBIngest implements Ingest{
             mv = new Movie();
 
         mapToMovie(mv, tmdb_mv);
-        
+
         movieRepository.save(mv);
         
         logger.info("Ingested movie with id:{}", id);    

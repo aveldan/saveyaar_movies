@@ -1,6 +1,11 @@
 package com.saveyaar.saveyaar_movies.client;
 
 
+import java.io.IOException;
+
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
 import org.springframework.core.env.Environment;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
@@ -149,5 +154,26 @@ public class TMDBClient {
                         .toUriString();
 
         return request(enti, uri, TMDBPerson.class);
+    }
+
+    public String ratingJsoupDoc(String id) {
+        try {
+            String url = env.getProperty("rating.url")+"/"+id;
+            
+            Document doc = Jsoup.connect(url).get();
+            Element spanElement = doc.select(env.getProperty("rating.classname")).first();
+            
+            if (spanElement != null) {
+            
+                return spanElement.text();
+            } else {
+            
+                return null;
+            }
+        } catch (IOException ex) {
+            System.err.println("Error fetching the HTML: " + ex.getMessage());
+            return null;
+        }
+        
     }
 }

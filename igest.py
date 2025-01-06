@@ -36,13 +36,13 @@ def ingest_movie(id: int):
         print("Error:", response.text)
 
 def main():
-    mvs = discover_movies("2024-01-01", "2024-12-31", "hi")
+    mvs = discover_movies("2024-01-01", "2024-12-31", "te")
     max_pages: int = 1
     max_pages = max(max_pages, mvs["total_pages"])
 
     
     for page in tqdm(range(1, max_pages+1)):
-        mvs = discover_movies("2024-01-01", "2024-12-31", "hi", page)
+        mvs = discover_movies("2024-01-01", "2024-12-31", "te", page)
 
         results = mvs["results"]
         for i in tqdm(range(0, len(results)), leave= False):

@@ -8,8 +8,11 @@ import org.springframework.data.repository.query.Param;
 
 import com.saveyaar.saveyaar_movies.model.Language;
 
-public interface LanguageRepository extends JpaRepository<Language, Long>{
+public interface LanguageRepository extends JpaRepository<Language, String>{
 
     @Query("SELECT l FROM Language l WHERE l.language_iso IN :languages")
     public List<Language> findAllByLanguage(@Param("languages") List<String> languages);
+
+    @Query("SELECT l FROM Language l WHERE l.language_iso = :iso")
+    public Language findByISO(@Param("iso") String iso);
 }
