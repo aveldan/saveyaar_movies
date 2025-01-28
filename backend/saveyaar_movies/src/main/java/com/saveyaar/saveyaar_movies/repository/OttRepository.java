@@ -15,4 +15,7 @@ public interface OttRepository extends JpaRepository<Ott, Long>{
 
     @Query("SELECT o FROM Ott o WHERE o.name = :name")
     public Ott findByName(@Param("name") String name);
+
+    @Query("SELECT o FROM Ott o WHERE o.name IN :names")
+    public List<Ott> findAllByName(@Param("names") List<String> names);
 }

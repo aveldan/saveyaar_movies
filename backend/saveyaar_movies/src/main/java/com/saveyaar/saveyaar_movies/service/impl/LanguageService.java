@@ -1,5 +1,7 @@
 package com.saveyaar.saveyaar_movies.service.impl;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,5 +20,9 @@ public class LanguageService {
             return null;
         
         return lang.getName();  
+    }
+
+    public List<Language> getLanguages(List<String> languages) {
+        return languageRepository.findAllByLanguage(languages);
     }
 }
